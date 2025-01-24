@@ -1,9 +1,9 @@
 import numpy as np
 from sklearn.linear_model import LinearRegression
 
-class My_LinearRegression:
+class My_Multiple_LinearRegression:
     """
-    A custom linear regression class that trains a model and provides prediction functionality.
+    A custom multiple linear regression class that trains a model and provides prediction functionality.
     """
 
     def __init__(self, X, y):
@@ -11,20 +11,21 @@ class My_LinearRegression:
         Initializes the class with training data.
 
         Args:
-          X (np.ndarray): A 2D array representing the feature matrix. Features 
-          y (np.ndarray): A 1D array representing the target vector. Targets 
+          X (np.ndarray): A 2D array representing the feature matrix (multiple features).
+          y (np.ndarray): A 1D array representing the target vector.
         """
-
         self.X = np.array(X, dtype=float)
         self.y = np.array(y, dtype=float)
 
+        # Ensure the data has the correct format
         if self.X.ndim != 2:
-            raise ValueError("X must be a 2D array.")
+            raise ValueError("X must be a 2D array representing multiple features.")
         if self.y.ndim != 1:
-            raise ValueError("y must be a 1D array.")
+            raise ValueError("y must be a 1D array representing the target variable.")
         if self.X.shape[0] != self.y.shape[0]:
             raise ValueError("The number of samples in X and y must match.")
 
+        # Create the Linear Regression model
         self.reg = LinearRegression()
 
     def create_and_train(self):
@@ -33,9 +34,9 @@ class My_LinearRegression:
 
         Returns:
           tuple: A tuple containing the learned coefficients and intercept.
-          The coeffients are values for each feature, and the intercept is the bias term.
+          - Coefficients: Array of values for each feature.
+          - Intercept: Bias term (theta_0).
         """
-
         self.reg.fit(self.X, self.y)
         return self.reg.coef_, self.reg.intercept_
 
@@ -44,20 +45,36 @@ class My_LinearRegression:
         Predicts the target value for a new sample.
 
         Args:
-          sample (np.ndarray or list): A 1D array or list representing the new sample to predict for.
+          sample (np.ndarray or list): A 1D array or list representing the new sample (feature values).
 
         Returns:
           float: The predicted target value for the given sample.
         """
-
         sample = np.array(sample, dtype=float)
 
+        # Validate the sample
         if sample.ndim != 1:
             raise ValueError("Sample must be a 1D array or list.")
         if sample.shape[0] != self.X.shape[1]:
             raise ValueError("Sample size must match the number of features in X.")
 
         return self.reg.predict(sample.reshape(1, -1))[0]
+
+    def get_model_summary(self):
+        """
+        Provides a summary of the trained model, including coefficients and intercept.
+
+        Returns:
+          str: A summary string with the model details.
+        """
+        if not hasattr(self.reg, 'coef_'):
+            raise ValueError("The model has not been trained yet. Call create_and_train first.")
+        
+        summary = "Model Summary:\n"
+        summary += f"Intercept (theta_0): {self.reg.intercept_}\n"
+        summary += f"Coefficients (theta_1, theta_2, ...): {self.reg.coef_}\n"
+        return summary
+
 
 # This code creates a linear regression model to estimate house prices based on square meters.
 # Training: It uses historical data (square meters and prices) to calculate:
