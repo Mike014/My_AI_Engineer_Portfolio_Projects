@@ -130,4 +130,4 @@ class My_RandomForestRegression:
 #     rfr.create_and_train()
 #     print(rfr.predict_sample([75]))
 #     print(rfr.get_feature_importance())
-#     print(rfr.get_model_summary()) 
+#     print(rfr.get_model_summary())  
