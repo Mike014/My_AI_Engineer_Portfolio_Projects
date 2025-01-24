@@ -162,3 +162,25 @@ class My_LogisticRegression:
 # features_e = ['tenure', 'age', 'address', 'ed', 'equip']
 # log_loss_e = calculate_log_loss(features_e)
 # print(f"Log loss without 'income' and 'employ': {log_loss_e}")
+
+
+# Logistic Regression is great for problems that require a binary solution (e.g. yes/no, 1/0). Here's a simple summary:
+
+# 1. Use features:
+
+# Analyze independent variables (e.g. age, income) to calculate a probability.
+
+# 2. Predict probability:
+
+# Calculate how likely it is that the event is in Class 1 (e.g. churn, disease, etc.).
+
+# 3. Classify:
+
+# Use a threshold (e.g. 0.5) to decide:
+# Above threshold → Class 1.
+# Below threshold → Class 0.
+
+# 4. Calculate Log Loss:
+
+# Measure how much and when the model was wrong in its predictions.
+# Heavily penalizes confident but incorrect predictions (e.g. predicting something that doesn't happen with 90% confidence).
