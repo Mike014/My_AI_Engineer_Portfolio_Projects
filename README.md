@@ -18,3 +18,4 @@ This repository presents some Machine Learning concepts acquired from my **AI En
 6. **Features**: The input (independent) variables that describe the observations.
 7. **Supervised Learning**: Definition: A learning method in which the model is trained on labeled data (with known features and targets).
 8. **Unsupervised Learning**: Definition: A learning method in which the model works on unlabeled data, looking for patterns or structures in the data.
+9. **Target**: The dependent or output variable that the model is intended to predict.
