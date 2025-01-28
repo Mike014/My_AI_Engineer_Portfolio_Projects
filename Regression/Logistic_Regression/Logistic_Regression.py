@@ -184,3 +184,8 @@ class My_LogisticRegression:
 
 # Measure how much and when the model was wrong in its predictions.
 # Heavily penalizes confident but incorrect predictions (e.g. predicting something that doesn't happen with 90% confidence).
+
+# When we talk about classes in Logistic Regression, we are referring to binary solutions, that is, two possible outcomes:
+
+# Class 0: An event does not happen (e.g. the user does not leave the service).
+# Class 1: An event happens (e.g. the user leaves the service).
