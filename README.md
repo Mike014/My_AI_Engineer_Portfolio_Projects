@@ -8,47 +8,52 @@ This repository presents some Machine Learning concepts acquired from my **AI En
  conda activate ml_env
 ```
 
-### Glossary of Terms Used in the Course
+### **Glossary of Terms Used in the Course**  
 
-1. **Algorithm**: A set of step-by-step instructions for solving a problem or making a prediction in machine learning.
-2. **Bias**: Systematic error introduced by the model when it fails to capture the complexity of the data, leading to underfitting.
-3. **Churn Prediction**: The process of predicting whether a customer will abandon a service or subscription.
-4. **Classes**: The possible outcomes or output categories predicted by the model.
-5. **Classification**: Classification predicts which category a piece of data belongs to by assigning it a discrete label.
-6. **Classification with KNN**: Method that assigns the class based on the majority of the K nearest neighbors.
-7. **Distance Euclidean**: Metric for calculating the distance between two points in multidimensional space.
-8. **Distance Manhattan**: Alternative to Euclidean distance, based on orthogonal (grid-like) paths.
-9. **Epsilon-Tube**: Margin around the prediction in SVR, where points within the margin are not penalized.
-10. **Feature Irrelevant**: Useless or redundant variables that increase noise in the model and reduce accuracy.
-11. **Feature Relevant**: Input variables that help the model improve prediction.
-12. **Feature Standardization**: Process to make features comparable, reducing their unbalanced impact on predictions.
-13. **Features**: The input (independent) variables that describe the observations.
-14. **Gamma**: Parameter of RBF and polynomial kernels that controls how much a single data point influences the separation.
-15. **Hard Margin**: Requires a perfect separation between classes, with a rigid margin.
-16. **Hyperplane**: Multidimensional surface that separates data into two classes.
-17. **Inference**: Refers to the process of using a trained model to make predictions on new data. It is where the model, based on patterns learned during training, provides output for inputs that have never been seen before.
-18. **K-Nearest Neighbors (KNN)**: Supervised algorithm that uses the nearest neighbors to classify or make predictions.
-19. **Kernel**: Function that transforms data to make it separable in high-dimensional spaces.
-20. **Labeled Data**: Input data that includes the correct answer (label or class) for training.
-21. **Linear Kernel**: Uses a simple hyperplane to separate classes.
-22. **Margin**: Distance between the hyperplane and the nearest data points (support vectors).
-23. **MSE**: Measures how close the target values at a node are to the mean.
-24. **Overfitting**: When the model learns specific details and noise from the training data, but fails to generalize to new data (K too low).
-25. **Parameter C**: Controls the trade-off between a stricter or softer separation.
-26. **Polynomial Kernel**: Maps data into a more complex space with polynomial functions.
-27. **Ponderazione dei vicini**: Technique to assign greater weight to closer neighbors in classification.
-28. **Regression**: Regression is a statistical technique that estimates a relationship between a continuous dependent variable and one or more independent variables.
-29. **Regression with KNN**: Method that assigns a numerical value by taking the mean or median of the values of the K nearest neighbors.
-30. **RBF (Radial Basis Function) Kernel**: Uses a transformation based on the distance between points to separate complex data.
-31. **Soft Margin**: Allows some misclassifications to improve the model's generalization.
-32. **Squilibrio nelle classi**: When some classes are much more present than others in the dataset, influencing predictions.
-33. **Standardizzazione delle feature**: Process to make features comparable, reducing their unbalanced impact on predictions.
-34. **Supervised Learning**: A learning method in which the model is trained on labeled data (with known features and targets).
-35. **Support Vector Machines (SVM)**: Supervised machine learning algorithm for classification and regression.
-36. **Support Vector Regression (SVR)**: Variant of SVM for regression, which predicts continuous values.
-37. **Support Vectors**: The data points closest to the hyperplane, which influence the separation of classes.
-38. **Target**: The dependent or output variable that the model is intended to predict.
-39. **Underfitting**: Occurs when a machine learning model is too simplistic to capture the underlying patterns in the data (K too high).
-40. **Unsupervised Learning**: A learning method in which the model works on unlabeled data, looking for patterns or structures in the data.
-41. **Valore di K**: Number of neighbors considered to determine the class or target value of a new point.
+1. **Algorithm**: A set of step-by-step instructions for solving a problem or making a prediction in machine learning.  
+2. **Bagging (Bootstrap Aggregating)**: An ensemble learning method that reduces **variance** by training multiple models on random subsets of data and averaging their predictions. Used in **Random Forests**.  
+3. **Bias**: Systematic error of the model, indicating how far the predictions are from the actual values. High bias causes **underfitting**, meaning the model is too simple to capture patterns in the data.  
+4. **Boosting**: An ensemble learning technique that reduces **bias** by sequentially training models, each correcting the errors of the previous one. Used in **XGBoost, AdaBoost, Gradient Boosting**.  
+5. **Churn Prediction**: The process of predicting whether a customer will abandon a service or subscription.  
+6. **Classes**: The possible outcomes or output categories predicted by the model.  
+7. **Classification**: Predicting which category a piece of data belongs to by assigning it a discrete label.  
+8. **Classification with KNN**: A method that assigns the class based on the majority of the K nearest neighbors.  
+9. **Distance Euclidean**: A metric for calculating the distance between two points in multidimensional space.  
+10. **Distance Manhattan**: An alternative to Euclidean distance, based on orthogonal (grid-like) paths.  
+11. **Epsilon-Tube**: The margin around the prediction in **SVR**, where points within the margin are not penalized.  
+12. **Feature Irrelevant**: Useless or redundant variables that increase noise in the model and reduce accuracy.  
+13. **Feature Relevant**: Input variables that help the model improve prediction.  
+14. **Feature Standardization**: The process of making features comparable, reducing their unbalanced impact on predictions.  
+15. **Features**: The input (independent) variables that describe the observations.  
+16. **Gamma**: A parameter of **RBF and polynomial kernels** that controls how much a single data point influences the decision boundary.  
+17. **Hard Margin**: Requires a perfect separation between classes, with a rigid margin.  
+18. **Hyperplane**: A multidimensional surface that separates data into two classes.  
+19. **Inference**: The process of using a trained model to make predictions on new data. The model, based on patterns learned during training, provides output for inputs it has never seen before.  
+20. **K-Nearest Neighbors (KNN)**: A supervised learning algorithm that uses the nearest neighbors to classify or make predictions.  
+21. **Kernel**: A function that transforms data to make it separable in high-dimensional spaces.  
+22. **Labeled Data**: Input data that includes the correct answer (label or class) for training.  
+23. **Linear Kernel**: Uses a simple hyperplane to separate classes.  
+24. **Margin**: The distance between the hyperplane and the nearest data points (**support vectors**).  
+25. **MSE (Mean Squared Error)**: Measures how close the target values at a node are to the mean, commonly used in **regression models**.  
+26. **Observations**: are the rows in the dataset that contain information about each example.  
+27. **Overfitting**: When the model is too complex and fits too closely to the training data, failing on new observations.  
+28. **Parameter C**: Controls the trade-off between a stricter or softer separation in **SVM models**.  
+29. **Polynomial Kernel**: Maps data into a more complex space using polynomial functions.  
+30. **Ponderation of Neighbors**: A technique to assign greater weight to closer neighbors in **KNN classification**.  
+31. **Regression**: A statistical technique that estimates a relationship between a continuous dependent variable and one or more independent variables.  
+32. **Regression with KNN**: A method that assigns a numerical value by taking the **mean or median** of the values of the K nearest neighbors.  
+33. **RBF (Radial Basis Function) Kernel**: Uses a transformation based on the distance between points to separate complex data.  
+34. **Soft Margin**: Allows some misclassifications to improve the model's generalization.  
+35. **Squilibrio nelle classi (Class Imbalance)**: When some classes are much more frequent than others in the dataset, influencing predictions.  
+36. **Standardization of Features**: The process of making features comparable by scaling them, reducing their unbalanced impact on predictions.  
+37. **Supervised Learning**: A learning method in which the model is trained on labeled data (with known features and targets).  
+38. **Support Vector Machines (SVM)**: A supervised machine learning algorithm used for classification and regression.  
+39. **Support Vector Regression (SVR)**: A variant of SVM for regression, which predicts continuous values.  
+40. **Support Vectors**: The data points closest to the **hyperplane**, which influence the separation of classes.  
+41. **Target**: The dependent or output variable that the model is intended to predict.  
+42. **Underfitting**: When the model is too simple and does not capture the patterns in the data well, leading to inaccurate predictions.  
+43. **Unsupervised Learning**: A learning method in which the model works on **unlabeled data**, looking for patterns or structures in the dataset.  
+44. **Variance**: Measures how much the model’s predictions fluctuate when trained on different subsets of the same dataset. High **variance** leads to **overfitting**.  
+45. **Values of K**: The number of neighbors considered to determine the class or target value of a new point in **KNN**.  
+
 
