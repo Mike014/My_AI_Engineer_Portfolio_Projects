@@ -8,7 +8,7 @@ I have completed the following course:
 
 - [Coursera: Verify my certificate](https://www.coursera.org/account/accomplishments/verify/SZ0JP21DH4Z1)
 
-<img src="https://github.com/Mike014/LLM_Concepts/blob/main/Badge_IBM_ML.pdf" alt="Intro to Generative AI" width="300"/>
+<img src="https://github.com/Mike014/My_AI_Engineer_Portfolio_Projects/blob/main/Badge_IBM_ML.png" alt="Intro to Generative AI" width="300"/>
 
 ## Create a virtual environment with **Conda**:
  ```bash
