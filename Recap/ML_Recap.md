@@ -1,6 +1,6 @@
-## **📌 General Summary of Machine Learning (ML) Concepts**
+# 📌 **General Summary of Machine Learning (ML) Concepts**
 
-This summary provides a comprehensive overview of the key concepts covered in your **Machine Learning** repository, organized by category: **Classification** and **Regression**. The major algorithms, theoretical concepts, and implementations are discussed below.
+This summary provides a comprehensive overview of the key concepts covered in your **Machine Learning** repository, organized by category: **Classification, Regression, and Clustering**. The major algorithms, theoretical concepts, and implementations are discussed below.
 
 ---
 
@@ -37,14 +37,6 @@ Classification is a method of **supervised learning** where the model learns fro
    - **One-vs-Rest (OvR)** → Creates **N binary classifiers**, one for each class against all others.
    - **One-vs-One (OvO)** → Compares every pair of classes individually and decides via voting.
 
-### **📌 Implementations in Your Repository**
-📂 **Classification/**  
-- 📜 **KNN_Classification.ipynb** → Implementation of KNN for classification.
-- 📜 **Decision_Trees.ipynb** → Decision Trees for classification.
-- 📜 **Multi-class_Classification.ipynb** → Multiclass classification using OvR and OvO.
-- 📜 **Logistic_Regression.py** → Logistic Regression for binary classification.
-- 📜 **Random_Forests_XGBoost.ipynb** → Ensemble learning implementation with **Random Forest and XGBoost**.
-
 ---
 
 ## **🔹 2. Regression**
@@ -73,18 +65,38 @@ Regression is a method of **supervised learning** used to predict a **continuous
    - An ensemble method that uses **bagging** to reduce overfitting in regression trees.
    - Improves accuracy by reducing the variance in the data.
 
-### **📌 Implementations in Your Repository**
-📂 **Regression/**  
-- 📜 **Simple-Linear-Regression.ipynb** → Implementation of simple linear regression.
-- 📜 **Mulitple-Linear-Regression.ipynb** → Multiple linear regression model.
-- 📜 **Regression_Trees_Taxi_Tip.ipynb** → Regression trees for predicting **taxi tips**.
-- 📜 **Random_Forest.py** → Implementation of Random Forest for regression.
+---
+
+## **🔹 3. Clustering**
+
+Clustering is a method of **unsupervised learning** used to group data points into clusters based on similarity.
+
+### **📌 Main Clustering Algorithms**
+1️⃣ **K-Means Clustering**
+   - A partition-based clustering algorithm that divides data into **K** non-overlapping clusters.
+   - Works by minimizing **intra-cluster variance** (distance of points from their centroid).
+   - Sensitive to **initial centroid selection** → **K-Means++** improves it.
+
+2️⃣ **Hierarchical Clustering**
+   - Builds a **tree-like structure** (dendrogram) that represents how data points merge into clusters.
+   - Two types:
+     - **Agglomerative** → Bottom-up approach (small clusters merge into larger ones).
+     - **Divisive** → Top-down approach (large clusters split into smaller ones).
+
+3️⃣ **DBSCAN (Density-Based Spatial Clustering)**
+   - Groups points based on **density** (regions with many nearby points are clusters).
+   - Handles **arbitrarily shaped clusters** and **outliers better than K-Means**.
+
+### **📌 Distance & Similarity Measures**
+- **Euclidean Distance** → Used in K-Means to measure the distance between points.
+- **Minkowski Distance** → Generalized distance metric (includes Euclidean and Manhattan distances).
+- **Cosine Similarity** → Measures the **angle between two vectors**, useful in **text processing**.
 
 ---
 
-## **🔹 3. Key Machine Learning Concepts**
+## **🔹 4. Key Machine Learning Concepts**
 
-Beyond the classification and regression algorithms, there are several **fundamental cross-cutting concepts** essential for understanding how models function.
+Beyond classification, regression, and clustering, there are several **fundamental concepts** essential for understanding ML models.
 
 ### **📌 Overfitting vs Underfitting**
 - **Overfitting** → The model fits the training data too closely, performing poorly on new data.
@@ -108,17 +120,11 @@ Beyond the classification and regression algorithms, there are several **fundame
 - **Bagging (Bootstrap Aggregating):** Reduces **variance** by combining multiple models trained on random subsets of the data.
 - **Boosting:** Reduces **bias** by sequentially training models that correct the errors of their predecessors.
 
-📌 **Repository Example:**  
-- 📜 **Random_Forests_XGBoost.ipynb**
-
 ---
 
 ### **📌 Feature Engineering**
 - **Feature Selection:** Choosing the most relevant features to improve prediction accuracy.
 - **Feature Scaling:** Normalizing or standardizing the data to ensure comparability.
 - **Feature Encoding:** Converting categorical variables into numerical format (e.g., **one-hot encoding**).
-
-📌 **Repository Example:**  
-- 📜 Documentation on **Feature Selection in Decision Trees & Random Forests**.
 
 ---
