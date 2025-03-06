@@ -176,160 +176,166 @@ AI is a vast field with many specializations. **Machine Learning** and **Deep Le
 
 ### **Glossary of Terms Used in the Course**  
 
-1. **Activation Function**: A mathematical function that introduces **non-linearity** into the model, allowing it to solve complex problems.  
-2. **Adam Optimizer**: An advanced optimization algorithm that improves gradient descent.  
-3. **Algorithm**: A set of step-by-step instructions for solving a problem or making a prediction in machine learning.  
-4. **Argmax**: A function that returns the index of the maximum value in a set. In multi-class classification, it determines the class with the highest probability.  
-5. **Artificial Neuron**: A mathematical model inspired by biological neurons, used in artificial neural networks.  
-6. **Autoencoder**: An unsupervised neural network that learns to compress and decompress data without human intervention.  
-7. **Automatic Translation**: The use of neural networks to translate text between different languages.  
-8. **Average-Pooling**: Computes the average value within a region of the image.  
-9. **Backpropagation**: An algorithm that optimizes **weights** and **biases** by correcting the model’s errors.  
-10. **BatchNormalization (Normalization)**: Technique that improves training stability and speed by **normalizing the output of layers to have a mean of zero** and a variance of one, applied during both training and inference.
-11. **Bagging (Bootstrap Aggregating)**: An ensemble learning method that reduces **variance** by training multiple models on random subsets of data and averaging their predictions. Used in **Random Forests**.  
-12. **Bias**: Systematic error of the model, indicating how far the predictions are from the actual values. High bias causes **underfitting**.  
-13. **Bias (b)**: A constant added to the equation to improve the model’s learning ability.  
-14. **Binary Classifier**: A model that distinguishes between only two classes (e.g., positive/negative). It serves as the basis for multi-class strategies like **One-vs-All** and **One-vs-One**.  
-15. **Boosting**: An ensemble learning technique that reduces **bias** by sequentially training models, each correcting the errors of the previous one. Used in **XGBoost, AdaBoost, Gradient Boosting**.  
-16. **Centroid**: The central point of a cluster.  
-17. **Categorical Cross-Entropy**: A loss function used for multi-class classification.  
-18. **Churn Prediction**: The process of predicting whether a customer will abandon a service or subscription.  
-19. **Classes**: The possible outcomes or output categories predicted by the model.  
-20. **Class Imbalance**: When some classes are much more frequent than others in the dataset, influencing predictions.  
-21. **Classification**: Predicting which category a piece of data belongs to by assigning it a discrete label.  
-22. **Classification with KNN**: A method that assigns the class based on the majority vote of the K nearest neighbors.  
-23. **Clustering**: An unsupervised learning technique for grouping similar data.  
-24. **CNN (Convolutional Neural Network)**: A neural network excellent for processing images and static objects, though it does not consider temporal context.  
-25. **Conv2D (Convolutional Layer)**: A convolutional layer that applies filters to the input to extract important features.
-26. **Cropping2D (Output Cropping)**: Trims parts of the output to correct mismatches in dimensions.
-27. **Data Augmentation**: is a pre-processing technique used in deep learning to artificially increase the amount of data available for training a model. This is done by applying random transformations to existing images, creating new versions with different variations.
-28. **Data Denoising**: Automatic noise removal from data via autoencoders.  
-29. **Decoder**: The part of an autoencoder that reconstructs the original input from the compressed representation.  
-30. **Deep Neural Network (DNN)**: A neural network with three or more hidden layers, capable of processing raw data such as images and text.  
-31. **Dependent Variable (Target/Output)**: The variable that the model is intended to predict (e.g., churn: yes/no).  
-32. **Dimensionality Reduction**: A technique to reduce the number of features in the data, improving efficiency and interpretability.  
-33. **Derivative**: Measures the rate of change of a function; used to calculate the slope of the cost function.  
-34. **Distance Euclidean**: A metric for calculating the distance between two points in multidimensional space.  
-35. **Distance Manhattan**: A metric based on orthogonal (grid-like) paths, an alternative to Euclidean distance.  
-36. **Dropout**: Regularization technique that **reduces overfitting** by randomly deactivating a fraction of neurons during training.
-37. **Dummy Class**: A fictitious class used in **One-vs-All** to separate a single class from the others.  
-38. **Elbow Method**: A method for finding the optimal number of clusters in K-Means.  
-39. **Encoder**: The part of an autoencoder that reduces the dimensionality of data into a more compact representation.  
-40. **Epsilon-Tube**: The margin around the prediction in **SVR**, within which points are not penalized.  
-41. **Epoch**: A complete training cycle where the model has seen all input data once.  
-42. **Euclidean Distance**: Measures the straight-line distance between two points. Used in **K-Means, KNN, Image Analysis**.  
-43. **Feature**: An independent variable used as input for the model.  
-44. **Feature Map**: The output of a convolutional layer representing learned patterns from input data.
-45. **Feature Irrelevant**: Useless or redundant variables that increase noise in the model and reduce accuracy.  
-46. **Feature Relevant**: Input variables that help the model improve prediction accuracy.  
-47. **Feature Scaling**: The process of normalizing features to improve model performance.  
-48. **Feature Selection**: The process of choosing the most relevant features to improve model accuracy.  
-49. **Feature Standardization**: The process of scaling features so that they are comparable, reducing their unbalanced impact on predictions.  
-50. **Features**: The input (independent) variables that describe the observations.  
-51. **Flattening**: Transforming the convolutional output into a vector for the dense layer.  
-52. **Forward Propagation**: The process by which data passes through the **neural network**, from input to output.  
-53. **Fully Connected Layer**: Also known as the **Dense Layer**; the final layer for classification using **Softmax**. The **final layers** of a CNN that perform classification.
-54. **Functional API**: An alternative to the Sequential API that allows for creating more **complex and flexible** models, with multiple inputs/outputs and non-linear connections.
-55. **Gamma**: A parameter of **RBF and polynomial kernels** that controls how much a single data point influences the decision boundary.  
-56. **Gradient Descent**: An iterative algorithm used to minimize the cost function.  
-57. **Gradients**: Values that indicate how much the network's weights should be updated. Too small values make learning slow.  
-58. **Ground Truth**: The actual or correct value that the model is intended to predict.  
-59. **Hard Margin**: A requirement for perfect separation between classes with a rigid margin.  
-60. **Hidden Layer**: An intermediate layer in the neural network that processes information.  
-61. **Hidden Layers**: Multiple intermediate layers that process data between the input and output layers.  
-62. **Hierarchical Clustering**: A clustering technique that creates a hierarchical structure of groups.  
-63. **Hyperbolic Tangent (Tanh)**: A sigmoid variant with outputs ranging from -1 to 1, providing more balanced values.  
-64. **Hyperplane**: A multidimensional surface that separates data into different classes.  
-65. **Image Classification**: An application of neural networks where images are categorized into different classes.  
-66. **Independent Variables (Feature/Input)**: The variables used for making predictions (e.g., age, income, purchasing habits).  
-67. **Inference**: The process of using a trained model to make predictions on new, unseen data.  
-68. **Input Layer**: The first layer of the neural network that receives the initial data.  
-69. **Iteration**: A cycle in the algorithm where weights are updated to approach the optimal value.  
-70. **K-Nearest Neighbors (KNN)**: A supervised learning algorithm that classifies or predicts based on the nearest neighbors.  
-71. **K Classes**: The total number of classes in a multi-class classification problem.  
-72. **K-Means**: A clustering algorithm that divides data into k groups based on similarity.  
-73. **Kernel**: A function that transforms data, making it separable in high-dimensional spaces.  
-74. **Keras**: A deep learning library used to build neural networks quickly and easily.  
-75. **Labeled Data**: A dataset in which each example has an assigned class for training purposes.  
-76. **Learning Rate (α)**: A parameter that controls the speed at which model parameters are updated.  
-77. **LSTM (Long Short-Term Memory)**: An advanced type of recurrent neural network (RNN) that handles long-term dependencies more effectively by avoiding the vanishing gradient problem. Applications include image generation, automated writing, and the automatic description of images and videos.  
-78. **Linear Combination (z)**: The weighted sum of inputs and weights, plus a bias:  
+- **Activation Function**: A mathematical function that introduces **non-linearity** into the model, allowing it to solve complex problems.  
+- **Adam Optimizer**: An advanced optimization algorithm that improves gradient descent.  
+- **Algorithm**: A set of step-by-step instructions for solving a problem or making a prediction in machine learning.  
+- **Argmax**: A function that returns the index of the maximum value in a set. In multi-class classification, it determines the class with the highest probability.  
+- **Artificial Neuron**: A mathematical model inspired by biological neurons, used in artificial neural networks.  
+- **Autoencoder**: An unsupervised neural network that learns to compress and decompress data without human intervention.  
+- **Automatic Translation**: The use of neural networks to translate text between different languages.  
+- **Average-Pooling**: Computes the average value within a region of the image.  
+- **Backpropagation**: An algorithm that optimizes **weights** and **biases** by correcting the model’s errors.  
+- **BatchNormalization (Normalization)**: Technique that improves training stability and speed by **normalizing the output of layers to have a mean of zero** and a variance of one, applied during both training and inference.
+- **Batch Size**: Number of samples processed by the model in a single training step.
+- **Bagging (Bootstrap Aggregating)**: An ensemble learning method that reduces **variance** by training multiple models on random subsets of data and averaging their predictions. Used in **Random Forests**.  
+- **Bias**: Systematic error of the model, indicating how far the predictions are from the actual values. High bias causes **underfitting**.  
+- **Bias (b)**: A constant added to the equation to improve the model’s learning ability.  
+- **Binary Classifier**: A model that distinguishes between only two classes (e.g., positive/negative). It serves as the basis for multi-class strategies like **One-vs-All** and **One-vs-One**.  
+- **Boosting**: An ensemble learning technique that reduces **bias** by sequentially training models, each correcting the errors of the previous one. Used in **XGBoost, AdaBoost, Gradient Boosting**.  
+- **Centroid**: The central point of a cluster.  
+- **Categorical Cross-Entropy**: A loss function used for multi-class classification.  
+- **Churn Prediction**: The process of predicting whether a customer will abandon a service or subscription.  
+- **Classes**: The possible outcomes or output categories predicted by the model.  
+- **Class Imbalance**: When some classes are much more frequent than others in the dataset, influencing predictions.  
+- **Classification**: Predicting which category a piece of data belongs to by assigning it a discrete label.  
+- **Classification with KNN**: A method that assigns the class based on the majority vote of the K nearest neighbors.  
+- **Clustering**: An unsupervised learning technique for grouping similar data.  
+- **CNN (Convolutional Neural Network)**: A neural network excellent for processing images and static objects, though it does not consider temporal context. 
+- **Convolutional Base**: Part of a CNN model that extracts features from images without including fully connected layers. 
+- **Conv2D (Convolutional Layer)**: A convolutional layer that applies filters to the input to extract important features.
+- **Cropping2D (Output Cropping)**: Trims parts of the output to correct mismatches in dimensions.
+- **Data Augmentation**: is a pre-processing technique used in deep learning to artificially increase the amount of data available for training a model. This is done by applying random transformations to existing images, creating new versions with different variations.
+- **Data Denoising**: Automatic noise removal from data via autoencoders.  
+- **Decoder**: The part of an autoencoder that reconstructs the original input from the compressed representation.  
+- **Deep Neural Network (DNN)**: A neural network with three or more hidden layers, capable of processing raw data such as images and text.  
+- **Dependent Variable (Target/Output)**: The variable that the model is intended to predict (e.g., churn: yes/no).  
+- **Dimensionality Reduction**: A technique to reduce the number of features in the data, improving efficiency and interpretability.  
+- **Derivative**: Measures the rate of change of a function; used to calculate the slope of the cost function.  
+- **Distance Euclidean**: A metric for calculating the distance between two points in multidimensional space.  
+- **Distance Manhattan**: A metric based on orthogonal (grid-like) paths, an alternative to Euclidean distance.  
+- **Dropout**: Regularization technique that **reduces overfitting** by randomly deactivating a fraction of neurons during training.
+- **Dummy Class**: A fictitious class used in **One-vs-All** to separate a single class from the others.  
+- **Elbow Method**: A method for finding the optimal number of clusters in K-Means.  
+- **Encoder**: The part of an autoencoder that reduces the dimensionality of data into a more compact representation.  
+- **Epsilon-Tube**: The margin around the prediction in **SVR**, within which points are not penalized.  
+- **Epoch**: A complete training cycle where the model has seen all input data once.  
+- **Euclidean Distance**: Measures the straight-line distance between two points. Used in **K-Means, KNN, Image Analysis**.  
+- **Feature**: An independent variable used as input for the model.  
+- **Feature Extraction**: A process in which a **pre-trained neural network** is used to extract significant features from new images.
+- **Feature Map**: The output of a convolutional layer representing learned patterns from input data.
+- **Feature Irrelevant**: Useless or redundant variables that increase noise in the model and reduce accuracy.  
+- **Feature Relevant**: Input variables that help the model improve prediction accuracy.  
+- **Feature Scaling**: The process of normalizing features to improve model performance.  
+- **Feature Selection**: The process of choosing the most relevant features to improve model accuracy.  
+- **Feature Standardization**: The process of scaling features so that they are comparable, reducing their unbalanced impact on predictions.  
+- **Features**: The input (independent) variables that describe the observations.  
+- **Fine-Tuning**: A technique in which some layers of a pre-trained model are "unlocked" and retrained on a new specific dataset.
+- **Flattening**: Transforming the convolutional output into a vector for the dense layer.  
+- **Forward Propagation**: The process by which data passes through the **neural network**, from input to output.  
+- **Fully Connected Layer**: Also known as the **Dense Layer**; the final layer for classification using **Softmax**. The **final layers** of a CNN that perform classification.
+- **Functional API**: An alternative to the Sequential API that allows for creating more **complex and flexible** models, with multiple inputs/outputs and non-linear connections.
+- **Gamma**: A parameter of **RBF and polynomial kernels** that controls how much a single data point influences the decision boundary.  
+- **Gradient Descent**: An iterative algorithm used to minimize the cost function.  
+- **Gradients**: Values that indicate how much the network's weights should be updated. Too small values make learning slow.  
+- **Ground Truth**: The actual or correct value that the model is intended to predict.  
+- **Hard Margin**: A requirement for perfect separation between classes with a rigid margin.  
+- **Hidden Layer**: An intermediate layer in the neural network that processes information.  
+- **Hidden Layers**: Multiple intermediate layers that process data between the input and output layers.  
+- **Hierarchical Clustering**: A clustering technique that creates a hierarchical structure of groups.  
+- **Hyperbolic Tangent (Tanh)**: A sigmoid variant with outputs ranging from -1 to 1, providing more balanced values.  
+- **Hyperplane**: A multidimensional surface that separates data into different classes.  
+- **Image Classification**: An application of neural networks where images are categorized into different classes.  
+- **Independent Variables (Feature/Input)**: The variables used for making predictions (e.g., age, income, purchasing habits).  
+- **Inference**: The process of using a trained model to make predictions on new, unseen data.  
+- **Input Layer**: The first layer of the neural network that receives the initial data.  
+- **Iteration**: A cycle in the algorithm where weights are updated to approach the optimal value.  
+- **K-Nearest Neighbors (KNN)**: A supervised learning algorithm that classifies or predicts based on the nearest neighbors.  
+- **K Classes**: The total number of classes in a multi-class classification problem.  
+- **K-Means**: A clustering algorithm that divides data into k groups based on similarity.  
+- **Kernel**: A function that transforms data, making it separable in high-dimensional spaces.  
+- **Keras**: A deep learning library used to build neural networks quickly and easily.  
+- **Labeled Data**: A dataset in which each example has an assigned class for training purposes.  
+- **Learning Rate (α)**: A parameter that controls the speed at which model parameters are updated.  
+- **LSTM (Long Short-Term Memory)**: An advanced type of recurrent neural network (RNN) that handles long-term dependencies more effectively by avoiding the vanishing gradient problem. Applications include image generation, automated writing, and the automatic description of images and videos.  
+- **Linear Combination (z)**: The weighted sum of inputs and weights, plus a bias:  
     \[ z = (x₁·w₁) + (x₂·w₂) + b \]  
-79. **Linear Kernel**: Uses a simple hyperplane to separate classes.  
-80. **Linear Regression**: A regression algorithm that predicts a continuous value based on a linear relationship between variables.  
-81. **Log-Loss (Loss Function)**: A loss function used to measure the error in logistic regression.  
-82. **Logistic Regression**: A classification algorithm that predicts the probability that an observation belongs to a class.  
-83. **Logit**: The logarithm of the odds ratio, used to model log-linear relationships.  
-84. **Logit Function**: Transforms any value into a probability between 0 and 1.  
-85. **loss**: Measures the error on the training data.
-86. **Majority Voting**: A method used in **One-vs-One** classification where the final class is determined by the most votes among binary classifiers.  
-87. **Margin**: The distance between the hyperplane and the nearest data points (**support vectors**).  
-88. **Mean Squared Error (MSE)**: A loss function that measures error in regression models.  
-89. **Max-Pooling**: A technique that selects the maximum value within a region of the image.  
-90. **Minkowski Distance**: A distance metric that generalizes Euclidean and Manhattan distances. Used in **Clustering, KNN, Geometry**.  
-91. **Minimum Global (Global Minimum)**: The lowest point of the cost function, representing the smallest possible error.  
-92. **Minimum Local (Local Minimum)**: A low point in the cost function, which is not necessarily the absolute minimum, where the model may become stuck.  
-93. **Multicollinearity**: A phenomenon where two or more features are strongly correlated, negatively affecting the model.  
-94. **Multinomial Logistic Regression**: A statistical model that generalizes binary logistic regression for multi-class classification.  
-95. **Multi-Class Classification**: A problem in which a data point must be assigned to one of **K** available classes.  
-96. **Neural Network**: A computational model inspired by the human brain, composed of interconnected artificial neurons.  
-97. **Neuron**: The basic unit of the brain and nervous system, responsible for transmitting information.  
-98. **Neuron Output (a)**: The final value of a neuron after applying the activation function.  
-99. **Non-linearity**: A property that enables a model to learn complex relationships between variables.  
-100. **Nucleus**: The part of the neuron that contains the cell’s genetic material and processes received information.  
-101. **Observations**: The rows in a dataset, each containing information about a single example.  
-102. **Odds Ratio**: The ratio between the probability of success and the probability of failure.  
-103. **One-Hot Encoding**: A technique to convert **categorical variables** into numeric form for machine learning models such as logistic regression.  
-104. **One-vs-All (One-vs-Rest)**: A multi-class classification strategy where a binary classifier is built for each class, distinguishing it from all other classes.  
-105. **One-vs-One**: A classification strategy in which a binary classifier is trained for each pair of classes, and the final decision is made based on the majority vote.  
-106. **Outlier Detection**: The process of identifying anomalous data points in a dataset.  
-107. **Output Layer**: The final layer of a neural network that produces the result.  
-108. **Overfitting**: When a model is overly complex and fits the training data too closely, leading to poor performance on new data.  
-109. **Parameter**: Are the values ​​that the model learns during the training process
-110. **Parameter C**: A parameter in **SVM models** that controls the trade-off between a strict separation and a softer margin.  
-111. **Parameters (θ)**: The model coefficients that are optimized during training.  
-112. **PCA (Principal Component Analysis)**: A traditional algorithm for dimensionality reduction, limited to linear transformations.  
-113. **Ponderation of Neighbors**: A technique in **KNN classification** that assigns greater weight to nearer neighbors.  
-114. **Polynomial Kernel**: Maps data into a more complex space using polynomial functions.  
-115. **Pooling Layer**: A layer that reduces the dimensions of data (e.g., images) to optimize the network.  
-116. **RBM (Restricted Boltzmann Machine)**: An advanced unsupervised model used to generate missing data, balance datasets, and extract features.  
-117. **RBF (Radial Basis Function) Kernel**: A kernel that uses a transformation based on the distance between points to separate complex data.  
-118. **ReLU (Rectified Linear Unit)**: The most commonly used activation function, which activates only neurons with positive input.  
-119. **Regression**: A statistical technique that estimates the relationship between a continuous dependent variable and one or more independent variables.  
-120. **Regression Model**: A model that predicts a continuous numerical value, such as concrete strength.  
-121. **Regression with KNN**: A method that predicts a numerical value by taking the mean or median of the values of the K nearest neighbors.  
-122. **Recommendation Systems**: Applications that suggest content based on the clustering of users or products.  
-123. **Recurrent Neural Networks (RNNs)**: Deep neural networks designed to process sequential data by using previous outputs as inputs for subsequent steps.  
-124. **Santiago Ramón y Cajal**: The Spanish scientist considered the father of modern neuroscience.  
-125. **Sequential Data**: Data organized in a specific order where context from previous elements is crucial.  
-126. **Sequential Model-API**: A type of model in Keras where layers are stacked sequentially.  
-127. **Shallow Neural Network**: A neural network with only one or two hidden layers that primarily processes input as vectors.  
-128. **Sigmoid**: A mathematical function that transforms inputs into a value between 0 and 1.  
-129. **Soft Margin**: A margin that allows some misclassifications to improve the model's generalization.  
-130. **SoftMax Probability**: The probability assigned to each class in a **SoftMax model**, computed by transforming the dot products of data and model parameters.  
-131. **SoftMax Regression**: A variant of logistic regression that assigns probabilities to multiple classes by transforming outputs into a probability distribution.  
-132. **Softmax**: Converts the output of a layer into probabilities for class membership.  
-133. **Stride**: The step size with which the convolutional filter moves across the image.  
-134. **Soma**: The main body of a neuron that contains its nucleus.  
-135. **Standardization of Features**: The process of scaling features to make them comparable and reduce unbalanced impact on predictions.  
-136. **Stochastic Gradient Descent (SGD)**: A variant of gradient descent that updates weights using **one sample** at a time.  
-137. **Supervised Learning**: A learning method in which the model is trained on labeled data.  
-138. **Support Vector Machines (SVM)**: A supervised machine learning algorithm used for classification and regression.  
-139. **Support Vector Regression (SVR)**: A variant of SVM used for predicting continuous values.  
-140. **Support Vectors**: Data points that are closest to the hyperplane and influence class separation.  
-141. **Target**: The dependent or output variable that the model is intended to predict.  
-142. **Temporal Context**: Relevant information over time that influences the processing of sequential data.  
-143. **Tensors**: Fundamental data structure in artificial intelligence, providing a means of storing both input and output data within a model
-144. **Theta Coefficient**: Values that indicate **how much each feature affects the prediction**.  
-145. **Threshold (Decision Threshold)**: The value (e.g., **0.5**) beyond which an observation is assigned to a class.  
-146. **Training Set**: The dataset used to train the model.  
-147. **Underfitting**: When the model is too simple to capture the underlying patterns in the data, leading to inaccurate predictions.  
-148. **Unsupervised Learning**: Machine learning without labels, where the model finds patterns in the data.  
-149. **UpSampling2D (Decoding for Autoencoders)**: The inverse operation of pooling, which increases the input size by replicating its values.
-150. **val_loss**: Measures the error on the test/validation data.
-151. **Values of K**: The number of neighbors considered when determining the class or target value in **KNN**.  
-152. **Vanishing Gradient Problem**: A problem where gradients become too small during training, making the learning process slow and ineffective.  
-153. **Variance**: A measure of how much the model’s predictions fluctuate when trained on different subsets of the dataset. High variance often leads to **overfitting**.  
-154. **Weight (w)**: A numerical value that determines the importance of an input in a neuron.  
-155. **Weight Update**: The process of updating a weight using the formula:  
+- **Linear Kernel**: Uses a simple hyperplane to separate classes.  
+- **Linear Regression**: A regression algorithm that predicts a continuous value based on a linear relationship between variables.  
+- **Log-Loss (Loss Function)**: A loss function used to measure the error in logistic regression.  
+- **Logistic Regression**: A classification algorithm that predicts the probability that an observation belongs to a class.  
+- **Logit**: The logarithm of the odds ratio, used to model log-linear relationships.  
+- **Logit Function**: Transforms any value into a probability between 0 and 1.  
+- **loss**: Measures the error on the training data.
+- **Majority Voting**: A method used in **One-vs-One** classification where the final class is determined by the most votes among binary classifiers.  
+- **Margin**: The distance between the hyperplane and the nearest data points (**support vectors**).  
+- **Mean Squared Error (MSE)**: A loss function that measures error in regression models.  
+- **Max-Pooling**: A technique that selects the maximum value within a region of the image.  
+- **Minkowski Distance**: A distance metric that generalizes Euclidean and Manhattan distances. Used in **Clustering, KNN, Geometry**.  
+- **Minimum Global (Global Minimum)**: The lowest point of the cost function, representing the smallest possible error.  
+- **Minimum Local (Local Minimum)**: A low point in the cost function, which is not necessarily the absolute minimum, where the model may become stuck.  
+- **Multicollinearity**: A phenomenon where two or more features are strongly correlated, negatively affecting the model.  
+- **Multinomial Logistic Regression**: A statistical model that generalizes binary logistic regression for multi-class classification.  
+- **Multi-Class Classification**: A problem in which a data point must be assigned to one of **K** available classes.  
+- **Neural Network**: A computational model inspired by the human brain, composed of interconnected artificial neurons.  
+- **Neuron**: The basic unit of the brain and nervous system, responsible for transmitting information.  
+- **Neuron Output (a)**: The final value of a neuron after applying the activation function.  
+- **Non-linearity**: A property that enables a model to learn complex relationships between variables.  
+- **Nucleus**: The part of the neuron that contains the cell’s genetic material and processes received information.  
+- **Observations**: The rows in a dataset, each containing information about a single example.  
+- **Odds Ratio**: The ratio between the probability of success and the probability of failure.  
+- **One-Hot Encoding**: A technique to convert **categorical variables** into numeric form for machine learning models such as logistic regression.  
+- **One-vs-All (One-vs-Rest)**: A multi-class classification strategy where a binary classifier is built for each class, distinguishing it from all other classes.  
+- **One-vs-One**: A classification strategy in which a binary classifier is trained for each pair of classes, and the final decision is made based on the majority vote.  
+- **Outlier Detection**: The process of identifying anomalous data points in a dataset.  
+- **Output Layer**: The final layer of a neural network that produces the result.  
+- **Overfitting**: When a model is overly complex and fits the training data too closely, leading to poor performance on new data.  
+- **Parameter**: Are the values ​​that the model learns during the training process
+- **Parameter C**: A parameter in **SVM models** that controls the trade-off between a strict separation and a softer margin.  
+- **Parameters (θ)**: The model coefficients that are optimized during training.  
+- **PCA (Principal Component Analysis)**: A traditional algorithm for dimensionality reduction, limited to linear transformations.  
+- **Ponderation of Neighbors**: A technique in **KNN classification** that assigns greater weight to nearer neighbors.  
+- **Polynomial Kernel**: Maps data into a more complex space using polynomial functions.  
+- **Pooling Layer**: A layer that reduces the dimensions of data (e.g., images) to optimize the network. 
+- **Pre-trained models**: are neural networks that have already been trained on large datasets.
+- **RBM (Restricted Boltzmann Machine)**: An advanced unsupervised model used to generate missing data, balance datasets, and extract features.  
+- **RBF (Radial Basis Function) Kernel**: A kernel that uses a transformation based on the distance between points to separate complex data.  
+- **ReLU (Rectified Linear Unit)**: The most commonly used activation function, which activates only neurons with positive input.  
+- **Regression**: A statistical technique that estimates the relationship between a continuous dependent variable and one or more independent variables.  
+- **Regression Model**: A model that predicts a continuous numerical value, such as concrete strength.  
+- **Regression with KNN**: A method that predicts a numerical value by taking the mean or median of the values of the K nearest neighbors.  
+- **Recommendation Systems**: Applications that suggest content based on the clustering of users or products.  
+- **Recurrent Neural Networks (RNNs)**: Deep neural networks designed to process sequential data by using previous outputs as inputs for subsequent steps.  
+- **Santiago Ramón y Cajal**: The Spanish scientist considered the father of modern neuroscience.  
+- **Sequential Data**: Data organized in a specific order where context from previous elements is crucial.  
+- **Sequential Model-API**: A type of model in Keras where layers are stacked sequentially.  
+- **Shallow Neural Network**: A neural network with only one or two hidden layers that primarily processes input as vectors.  
+- **Sigmoid**: A mathematical function that transforms inputs into a value between 0 and 1.  
+- **Soft Margin**: A margin that allows some misclassifications to improve the model's generalization.  
+- **SoftMax Probability**: The probability assigned to each class in a **SoftMax model**, computed by transforming the dot products of data and model parameters.  
+- **SoftMax Regression**: A variant of logistic regression that assigns probabilities to multiple classes by transforming outputs into a probability distribution.  
+- **Softmax**: Converts the output of a layer into probabilities for class membership.  
+- **Stride**: The step size with which the convolutional filter moves across the image.  
+- **Soma**: The main body of a neuron that contains its nucleus.  
+- **Standardization of Features**: The process of scaling features to make them comparable and reduce unbalanced impact on predictions.  
+- **Stochastic Gradient Descent (SGD)**: A variant of gradient descent that updates weights using **one sample** at a time.  
+- **Supervised Learning**: A learning method in which the model is trained on labeled data.  
+- **Support Vector Machines (SVM)**: A supervised machine learning algorithm used for classification and regression.  
+- **Support Vector Regression (SVR)**: A variant of SVM used for predicting continuous values.  
+- **Support Vectors**: Data points that are closest to the hyperplane and influence class separation.  
+- **Target**: The dependent or output variable that the model is intended to predict.  
+- **Temporal Context**: Relevant information over time that influences the processing of sequential data.  
+- **Tensors**: Fundamental data structure in artificial intelligence, providing a means of storing both input and output data within a model
+- **Theta Coefficient**: Values that indicate **how much each feature affects the prediction**.  
+- **Threshold (Decision Threshold)**: The value (e.g., **0.5**) beyond which an observation is assigned to a class.  
+- **Training Set**: The dataset used to train the model.  
+- **Transfer Learning**: It is a technique that allows you to reuse pre-trained models on large datasets for new and related tasks.
+- **Underfitting**: When the model is too simple to capture the underlying patterns in the data, leading to inaccurate predictions.  
+- **Unsupervised Learning**: Machine learning without labels, where the model finds patterns in the data.  
+- **UpSampling2D (Decoding for Autoencoders)**: The inverse operation of pooling, which increases the input size by replicating its values.
+- **val_loss**: Measures the error on the test/validation data.
+- **Values of K**: The number of neighbors considered when determining the class or target value in **KNN**.  
+- **Vanishing Gradient Problem**: A problem where gradients become too small during training, making the learning process slow and ineffective.  
+- **Variance**: A measure of how much the model’s predictions fluctuate when trained on different subsets of the dataset. High variance often leads to **overfitting**.  
+- **Weight (w)**: A numerical value that determines the importance of an input in a neuron.  
+- **Weight Update**: The process of updating a weight using the formula:  
     \[ w_{\text{new}} = w_{\text{old}} - \alpha \cdot \text{gradient} \]
