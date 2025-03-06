@@ -194,6 +194,7 @@ AI is a vast field with many specializations. **Machine Learning** and **Deep Le
 - **Boosting**: An ensemble learning technique that reduces **bias** by sequentially training models, each correcting the errors of the previous one. Used in **XGBoost, AdaBoost, Gradient Boosting**.  
 - **Centroid**: The central point of a cluster.  
 - **Categorical Cross-Entropy**: A loss function used for multi-class classification.  
+- **Checkerboard Artifacts**: Distortions due to uneven overlapping of convolutional filters.
 - **Churn Prediction**: The process of predicting whether a customer will abandon a service or subscription.  
 - **Classes**: The possible outcomes or output categories predicted by the model.  
 - **Class Imbalance**: When some classes are much more frequent than others in the dataset, influencing predictions.  
