@@ -202,6 +202,7 @@ AI is a vast field with many specializations. **Machine Learning** and **Deep Le
 - **Classification with KNN**: A method that assigns the class based on the majority vote of the K nearest neighbors.  
 - **Clustering**: An unsupervised learning technique for grouping similar data.  
 - **CNN (Convolutional Neural Network)**: A neural network excellent for processing images and static objects, though it does not consider temporal context. 
+- **Convolution operation in CNN**: A mathematical process that allows the network to extract relevant features from an image.
 - **Convolutional Base**: Part of a CNN model that extracts features from images without including fully connected layers. 
 - **Conv2D (Convolutional Layer)**: A convolutional layer that applies filters to the input to extract important features.
 - **Cropping2D (Output Cropping)**: Trims parts of the output to correct mismatches in dimensions.
@@ -300,13 +301,15 @@ AI is a vast field with many specializations. **Machine Learning** and **Deep Le
 - **Pre-trained models**: are neural networks that have already been trained on large datasets.
 - **RBM (Restricted Boltzmann Machine)**: An advanced unsupervised model used to generate missing data, balance datasets, and extract features.  
 - **RBF (Radial Basis Function) Kernel**: A kernel that uses a transformation based on the distance between points to separate complex data.  
+- **Random noise**: A type of custom augmentation that adds random noise to images, simulating different lighting conditions and sensor noise to make models more robust.
 - **ReLU (Rectified Linear Unit)**: The most commonly used activation function, which activates only neurons with positive input.  
 - **Regression**: A statistical technique that estimates the relationship between a continuous dependent variable and one or more independent variables.  
 - **Regression Model**: A model that predicts a continuous numerical value, such as concrete strength.  
 - **Regression with KNN**: A method that predicts a numerical value by taking the mean or median of the values of the K nearest neighbors.  
 - **Recommendation Systems**: Applications that suggest content based on the clustering of users or products.  
 - **Recurrent Neural Networks (RNNs)**: Deep neural networks designed to process sequential data by using previous outputs as inputs for subsequent steps.  
-- **Santiago Ramón y Cajal**: The Spanish scientist considered the father of modern neuroscience.  
+- **Santiago Ramón y Cajal**: The Spanish scientist considered the father of modern neuroscience. 
+- **Semantic segmentation**: A deep learning task that involves classifying each pixel in an image into a predefined class. 
 - **Sequential Data**: Data organized in a specific order where context from previous elements is crucial.  
 - **Sequential Model-API**: A type of model in Keras where layers are stacked sequentially.  
 - **Shallow Neural Network**: A neural network with only one or two hidden layers that primarily processes input as vectors.  
@@ -330,6 +333,7 @@ AI is a vast field with many specializations. **Machine Learning** and **Deep Le
 - **Threshold (Decision Threshold)**: The value (e.g., **0.5**) beyond which an observation is assigned to a class.  
 - **Training Set**: The dataset used to train the model.  
 - **Transfer Learning**: It is a technique that allows you to reuse pre-trained models on large datasets for new and related tasks.
+- **Transpose convolution**: An operation that reverses the effects of convolution, often used for up-sampling in image processing.
 - **Underfitting**: When the model is too simple to capture the underlying patterns in the data, leading to inaccurate predictions.  
 - **Unsupervised Learning**: Machine learning without labels, where the model finds patterns in the data.  
 - **UpSampling2D (Decoding for Autoencoders)**: The inverse operation of pooling, which increases the input size by replicating its values.
@@ -337,6 +341,7 @@ AI is a vast field with many specializations. **Machine Learning** and **Deep Le
 - **Values of K**: The number of neighbors considered when determining the class or target value in **KNN**.  
 - **Vanishing Gradient Problem**: A problem where gradients become too small during training, making the learning process slow and ineffective.  
 - **Variance**: A measure of how much the model’s predictions fluctuate when trained on different subsets of the dataset. High variance often leads to **overfitting**.  
+- **VGG16**: A convolutional neural network model pre-trained on the ImageNet data set, commonly used in transfer learning for tasks involving image classification.
 - **Weight (w)**: A numerical value that determines the importance of an input in a neuron.  
 - **Weight Update**: The process of updating a weight using the formula:  
     \[ w_{\text{new}} = w_{\text{old}} - \alpha \cdot \text{gradient} \]
