@@ -217,6 +217,7 @@ AI is a vast field with many specializations. **Machine Learning** and **Deep Le
 - **Distance Manhattan**: A metric based on orthogonal (grid-like) paths, an alternative to Euclidean distance.  
 - **Dropout**: Regularization technique that **reduces overfitting** by randomly deactivating a fraction of neurons during training.
 - **Dummy Class**: A fictitious class used in **One-vs-All** to separate a single class from the others.  
+- **Elastic Weight Consolidation (EWC)**: A **biologically inspired algorithm** that **slows learning on critical weights** for previous tasks, **preserving past knowledge** while learning new tasks.
 - **Elbow Method**: A method for finding the optimal number of clusters in K-Means.  
 - **Encoder**: The part of an autoencoder that reduces the dimensionality of data into a more compact representation.  
 - **Epsilon-Tube**: The margin around the prediction in **SVR**, within which points are not penalized.  
@@ -240,7 +241,8 @@ AI is a vast field with many specializations. **Machine Learning** and **Deep Le
 - **Gradient Descent**: An iterative algorithm used to minimize the cost function.  
 - **Gradients**: Values that indicate how much the network's weights should be updated. Too small values make learning slow.  
 - **Ground Truth**: The actual or correct value that the model is intended to predict.  
-- **Hard Margin**: A requirement for perfect separation between classes with a rigid margin.  
+- **Hard Margin**: A requirement for perfect separation between classes with a rigid margin.  .
+- **Hebb's theory**: simply put, says that neurons that fire together strengthen their connections, "neurons that fire together, wire together."
 - **Hidden Layer**: An intermediate layer in the neural network that processes information.  
 - **Hidden Layers**: Multiple intermediate layers that process data between the input and output layers.  
 - **Hierarchical Clustering**: A clustering technique that creates a hierarchical structure of groups.  
@@ -270,8 +272,9 @@ AI is a vast field with many specializations. **Machine Learning** and **Deep Le
 - **loss**: Measures the error on the training data.
 - **Majority Voting**: A method used in **One-vs-One** classification where the final class is determined by the most votes among binary classifiers.  
 - **Margin**: The distance between the hyperplane and the nearest data points (**support vectors**).  
+- **Max-Pooling**: A technique that selects the maximum value within a region of the image.
 - **Mean Squared Error (MSE)**: A loss function that measures error in regression models.  
-- **Max-Pooling**: A technique that selects the maximum value within a region of the image.  
+- **Meta learning** is the art of teaching AI to learn on its own, like a child learning to learn.
 - **Minkowski Distance**: A distance metric that generalizes Euclidean and Manhattan distances. Used in **Clustering, KNN, Geometry**.  
 - **Minimum Global (Global Minimum)**: The lowest point of the cost function, representing the smallest possible error.  
 - **Minimum Local (Local Minimum)**: A low point in the cost function, which is not necessarily the absolute minimum, where the model may become stuck.  
@@ -291,6 +294,7 @@ AI is a vast field with many specializations. **Machine Learning** and **Deep Le
 - **Outlier Detection**: The process of identifying anomalous data points in a dataset.  
 - **Output Layer**: The final layer of a neural network that produces the result.  
 - **Overfitting**: When a model is overly complex and fits the training data too closely, leading to poor performance on new data.  
+- **Overcoming Catastrophic Forgetting**: Phenomenon in which a **network trained sequentially** on multiple tasks rapidly **forgets** previously acquired knowledge.
 - **Parameter**: Are the values ​​that the model learns during the training process
 - **Parameter C**: A parameter in **SVM models** that controls the trade-off between a strict separation and a softer margin.  
 - **Parameters (θ)**: The model coefficients that are optimized during training.  
