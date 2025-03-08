@@ -191,7 +191,8 @@ AI is a vast field with many specializations. **Machine Learning** and **Deep Le
 - **Bias**: Systematic error of the model, indicating how far the predictions are from the actual values. High bias causes **underfitting**.  
 - **Bias (b)**: A constant added to the equation to improve the model’s learning ability.  
 - **Binary Classifier**: A model that distinguishes between only two classes (e.g., positive/negative). It serves as the basis for multi-class strategies like **One-vs-All** and **One-vs-One**.  
-- **Boosting**: An ensemble learning technique that reduces **bias** by sequentially training models, each correcting the errors of the previous one. Used in **XGBoost, AdaBoost, Gradient Boosting**.  
+- **Boosting**: An ensemble learning technique that reduces **bias** by sequentially training models, each correcting the errors of the previous one. Used in **XGBoost, AdaBoost, Gradient Boosting**.
+- **Broadcasting**: A rule that allows operations between arrays of different sizes by automatically adjusting dimensions. 
 - **Centroid**: The central point of a cluster.  
 - **Categorical Cross-Entropy**: A loss function used for multi-class classification.  
 - **Checkerboard Artifacts**: Distortions due to uneven overlapping of convolutional filters.
@@ -273,6 +274,7 @@ AI is a vast field with many specializations. **Machine Learning** and **Deep Le
 - **Majority Voting**: A method used in **One-vs-One** classification where the final class is determined by the most votes among binary classifiers.  
 - **Margin**: The distance between the hyperplane and the nearest data points (**support vectors**).  
 - **Max-Pooling**: A technique that selects the maximum value within a region of the image.
+- **Matrix**: A table of numbers with rows and columns, used for linear transformations.
 - **Mean Squared Error (MSE)**: A loss function that measures error in regression models.  
 - **Meta learning** is the art of teaching AI to learn on its own, like a child learning to learn.
 - **Minkowski Distance**: A distance metric that generalizes Euclidean and Manhattan distances. Used in **Clustering, KNN, Geometry**.  
@@ -313,6 +315,7 @@ AI is a vast field with many specializations. **Machine Learning** and **Deep Le
 - **Recommendation Systems**: Applications that suggest content based on the clustering of users or products.  
 - **Recurrent Neural Networks (RNNs)**: Deep neural networks designed to process sequential data by using previous outputs as inputs for subsequent steps.  
 - **Santiago Ramón y Cajal**: The Spanish scientist considered the father of modern neuroscience. 
+- **Scalar**: A single number, an isolated value.
 - **Semantic segmentation**: A deep learning task that involves classifying each pixel in an image into a predefined class. 
 - **Sequential Data**: Data organized in a specific order where context from previous elements is crucial.  
 - **Sequential Model-API**: A type of model in Keras where layers are stacked sequentially.  
@@ -332,12 +335,13 @@ AI is a vast field with many specializations. **Machine Learning** and **Deep Le
 - **Support Vectors**: Data points that are closest to the hyperplane and influence class separation.  
 - **Target**: The dependent or output variable that the model is intended to predict.  
 - **Temporal Context**: Relevant information over time that influences the processing of sequential data.  
-- **Tensors**: Fundamental data structure in artificial intelligence, providing a means of storing both input and output data within a model
+- **Tensors**: Fundamental data structure in artificial intelligence, providing a means of storing both input and output data within a model,  A multi-dimensional array, a generalization of vectors and matrices.
 - **Theta Coefficient**: Values that indicate **how much each feature affects the prediction**.  
 - **Threshold (Decision Threshold)**: The value (e.g., **0.5**) beyond which an observation is assigned to a class.  
 - **Training Set**: The dataset used to train the model.  
 - **Transfer Learning**: It is a technique that allows you to reuse pre-trained models on large datasets for new and related tasks.
 - **Transpose convolution**: An operation that reverses the effects of convolution, often used for up-sampling in image processing.
+- **Transpose**: Swaps rows and columns of a matrix.
 - **Underfitting**: When the model is too simple to capture the underlying patterns in the data, leading to inaccurate predictions.  
 - **Unsupervised Learning**: Machine learning without labels, where the model finds patterns in the data.  
 - **UpSampling2D (Decoding for Autoencoders)**: The inverse operation of pooling, which increases the input size by replicating its values.
@@ -346,6 +350,7 @@ AI is a vast field with many specializations. **Machine Learning** and **Deep Le
 - **Vanishing Gradient Problem**: A problem where gradients become too small during training, making the learning process slow and ineffective.  
 - **Variance**: A measure of how much the model’s predictions fluctuate when trained on different subsets of the dataset. High variance often leads to **overfitting**.  
 - **VGG16**: A convolutional neural network model pre-trained on the ImageNet data set, commonly used in transfer learning for tasks involving image classification.
+- **Vector**: An ordered list of numbers, representing a point in space.
 - **Weight (w)**: A numerical value that determines the importance of an input in a neuron.  
 - **Weight Update**: The process of updating a weight using the formula:  
     \[ w_{\text{new}} = w_{\text{old}} - \alpha \cdot \text{gradient} \]
