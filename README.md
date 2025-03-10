@@ -281,6 +281,7 @@ AI is a vast field with many specializations. **Machine Learning** and **Deep Le
 - **Minkowski Distance**: A distance metric that generalizes Euclidean and Manhattan distances. Used in **Clustering, KNN, Geometry**.  
 - **Minimum Global (Global Minimum)**: The lowest point of the cost function, representing the smallest possible error.  
 - **Minimum Local (Local Minimum)**: A low point in the cost function, which is not necessarily the absolute minimum, where the model may become stuck.  
+- **MNIST**: is a dataset of images of handwritten digits, commonly used to train and test machine learning models.
 - **Multicollinearity**: A phenomenon where two or more features are strongly correlated, negatively affecting the model.  
 - **Multinomial Logistic Regression**: A statistical model that generalizes binary logistic regression for multi-class classification.  
 - **Multi-Class Classification**: A problem in which a data point must be assigned to one of **K** available classes.  
@@ -316,7 +317,7 @@ AI is a vast field with many specializations. **Machine Learning** and **Deep Le
 - **Recommendation Systems**: Applications that suggest content based on the clustering of users or products.  
 - **Recurrent Neural Networks (RNNs)**: Deep neural networks designed to process sequential data by using previous outputs as inputs for subsequent steps.  
 - **Santiago Ramón y Cajal**: The Spanish scientist considered the father of modern neuroscience. 
-- **Scalar**: A single number, an isolated value.
+- **Scalar**: A single number, an isolated value. 
 - **Semantic segmentation**: A deep learning task that involves classifying each pixel in an image into a predefined class. 
 - **Sequential Data**: Data organized in a specific order where context from previous elements is crucial.  
 - **Sequential Model-API**: A type of model in Keras where layers are stacked sequentially.  
