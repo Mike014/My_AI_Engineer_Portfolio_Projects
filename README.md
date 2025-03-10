@@ -195,6 +195,7 @@ AI is a vast field with many specializations. **Machine Learning** and **Deep Le
 - **Broadcasting**: A rule that allows operations between arrays of different sizes by automatically adjusting dimensions. 
 - **Centroid**: The central point of a cluster.  
 - **Categorical Cross-Entropy**: A loss function used for multi-class classification.  
+- **Cost Function**: It would calculate how wrong the model's answer is.
 - **Checkerboard Artifacts**: Distortions due to uneven overlapping of convolutional filters.
 - **Churn Prediction**: The process of predicting whether a customer will abandon a service or subscription.  
 - **Classes**: The possible outcomes or output categories predicted by the model.  
