@@ -310,12 +310,13 @@ AI is a vast field with many specializations. **Machine Learning** and **Deep Le
 - **RBM (Restricted Boltzmann Machine)**: An advanced unsupervised model used to generate missing data, balance datasets, and extract features.  
 - **RBF (Radial Basis Function) Kernel**: A kernel that uses a transformation based on the distance between points to separate complex data.  
 - **Random noise**: A type of custom augmentation that adds random noise to images, simulating different lighting conditions and sensor noise to make models more robust.
+- **Recommendation Systems**: Applications that suggest content based on the clustering of users or products.  
+- **Recurrent Neural Networks (RNNs)**: Deep neural networks designed to process sequential data by using previous outputs as inputs for subsequent steps.  
 - **ReLU (Rectified Linear Unit)**: The most commonly used activation function, which activates only neurons with positive input.  
 - **Regression**: A statistical technique that estimates the relationship between a continuous dependent variable and one or more independent variables.  
 - **Regression Model**: A model that predicts a continuous numerical value, such as concrete strength.  
 - **Regression with KNN**: A method that predicts a numerical value by taking the mean or median of the values of the K nearest neighbors.  
-- **Recommendation Systems**: Applications that suggest content based on the clustering of users or products.  
-- **Recurrent Neural Networks (RNNs)**: Deep neural networks designed to process sequential data by using previous outputs as inputs for subsequent steps.  
+- **Reinforcement Learning (RL)**: is a machine learning paradigm in which an agent learns to make decisions by interacting with an environment.
 - **Santiago Ramón y Cajal**: The Spanish scientist considered the father of modern neuroscience. 
 - **Scalar**: A single number, an isolated value. 
 - **Semantic segmentation**: A deep learning task that involves classifying each pixel in an image into a predefined class. 
