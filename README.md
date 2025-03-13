@@ -236,6 +236,7 @@ AI is a vast field with many specializations. **Machine Learning** and **Deep Le
 - **Features**: The input (independent) variables that describe the observations.  
 - **Feed-Forward Neural Network (FFNN)**: A neural network transforms the processed vector.
 - **Fine-Tuning**: A technique in which some layers of a pre-trained model are "unlocked" and retrained on a new specific dataset.
+- **Fisher Information**: Fisher Information tells you how "sensitive" the probability of your data is to small changes in these parameters.
 - **Flattening**: Transforming the convolutional output into a vector for the dense layer.  
 - **Forward Propagation**: The process by which data passes through the **neural network**, from input to output.  
 - **Fully Connected Layer**: Also known as the **Dense Layer**; the final layer for classification using **Softmax**. The **final layers** of a CNN that perform classification.
