@@ -210,7 +210,7 @@ AI is a vast field with many specializations. **Machine Learning** and **Deep Le
 - **Cropping2D (Output Cropping)**: Trims parts of the output to correct mismatches in dimensions.
 - **Data Augmentation**: is a pre-processing technique used in deep learning to artificially increase the amount of data available for training a model. This is done by applying random transformations to existing images, creating new versions with different variations.
 - **Data Denoising**: Automatic noise removal from data via autoencoders.  
-- **Decoder**: The part of an autoencoder that reconstructs the original input from the compressed representation.  
+- **Decoder**: The part of an autoencoder that reconstructs the original input from the compressed representation. Generate the output sequence, step by step, using the encoder representation and previously generated information.
 - **Deep Neural Network (DNN)**: A neural network with three or more hidden layers, capable of processing raw data such as images and text.  
 - **Dependent Variable (Target/Output)**: The variable that the model is intended to predict (e.g., churn: yes/no).  
 - **Dimensionality Reduction**: A technique to reduce the number of features in the data, improving efficiency and interpretability.  
@@ -221,7 +221,7 @@ AI is a vast field with many specializations. **Machine Learning** and **Deep Le
 - **Dummy Class**: A fictitious class used in **One-vs-All** to separate a single class from the others.  
 - **Elastic Weight Consolidation (EWC)**: A **biologically inspired algorithm** that **slows learning on critical weights** for previous tasks, **preserving past knowledge** while learning new tasks.
 - **Elbow Method**: A method for finding the optimal number of clusters in K-Means.  
-- **Encoder**: The part of an autoencoder that reduces the dimensionality of data into a more compact representation.  
+- **Encoder**: The part of an autoencoder that reduces the dimensionality of data into a more compact representation. Transforms the input sequence into a dense numerical representation, capturing meaning and context.
 - **Epsilon-Tube**: The margin around the prediction in **SVR**, within which points are not penalized.  
 - **Epoch**: A complete training cycle where the model has seen all input data once.  
 - **Euclidean Distance**: Measures the straight-line distance between two points. Used in **K-Means, KNN, Image Analysis**.  
@@ -234,6 +234,7 @@ AI is a vast field with many specializations. **Machine Learning** and **Deep Le
 - **Feature Selection**: The process of choosing the most relevant features to improve model accuracy.  
 - **Feature Standardization**: The process of scaling features so that they are comparable, reducing their unbalanced impact on predictions.  
 - **Features**: The input (independent) variables that describe the observations.  
+- **Feed-Forward Neural Network (FFNN)**: A neural network transforms the processed vector.
 - **Fine-Tuning**: A technique in which some layers of a pre-trained model are "unlocked" and retrained on a new specific dataset.
 - **Flattening**: Transforming the convolutional output into a vector for the dense layer.  
 - **Forward Propagation**: The process by which data passes through the **neural network**, from input to output.  
@@ -318,7 +319,8 @@ AI is a vast field with many specializations. **Machine Learning** and **Deep Le
 - **Regression with KNN**: A method that predicts a numerical value by taking the mean or median of the values of the K nearest neighbors.  
 - **Reinforcement Learning (RL)**: is a machine learning paradigm in which an agent learns to make decisions by interacting with an environment.
 - **Santiago Ramón y Cajal**: The Spanish scientist considered the father of modern neuroscience. 
-- **Scalar**: A single number, an isolated value. 
+- **Scalar**: A single number, an isolated value.
+- **Self-Attention Mechanism**: Allows the **model to weight words** in the **context of a sentence**. Each word compares itself to all other words in the sentence, calculating how important it is compared to the others (attention weights).
 - **Semantic segmentation**: A deep learning task that involves classifying each pixel in an image into a predefined class. 
 - **Sequential Data**: Data organized in a specific order where context from previous elements is crucial.  
 - **Sequential Model-API**: A type of model in Keras where layers are stacked sequentially.  
