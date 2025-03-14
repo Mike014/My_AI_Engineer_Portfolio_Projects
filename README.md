@@ -322,6 +322,7 @@ AI is a vast field with many specializations. **Machine Learning** and **Deep Le
 - **Santiago Ramón y Cajal**: The Spanish scientist considered the father of modern neuroscience. 
 - **Scalar**: A single number, an isolated value.
 - **Self-Attention Mechanism**: Allows the **model to weight words** in the **context of a sentence**. Each word compares itself to all other words in the sentence, calculating how important it is compared to the others (attention weights).
+- **Sequential data**: are text, time series, audio.
 - **Semantic segmentation**: A deep learning task that involves classifying each pixel in an image into a predefined class. 
 - **Sequential Data**: Data organized in a specific order where context from previous elements is crucial.  
 - **Sequential Model-API**: A type of model in Keras where layers are stacked sequentially.  
