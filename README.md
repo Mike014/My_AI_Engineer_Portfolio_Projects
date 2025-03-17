@@ -184,6 +184,7 @@ AI is a vast field with many specializations. **Machine Learning** and **Deep Le
 - **Autoencoder**: An unsupervised neural network that learns to compress and decompress data without human intervention.  
 - **Automatic Translation**: The use of neural networks to translate text between different languages.  
 - **Average-Pooling**: Computes the average value within a region of the image.  
+- **Autoregression**: In an autoregressive model, the output generated in a given step is used as input for the next step. This creates a **sequential dependency**.
 - **Backpropagation**: An algorithm that optimizes **weights** and **biases** by correcting the model’s errors.  
 - **BatchNormalization (Normalization)**: Technique that improves training stability and speed by **normalizing the output of layers to have a mean of zero** and a variance of one, applied during both training and inference.
 - **Batch Size**: Number of samples processed by the model in a single training step.
@@ -359,5 +360,6 @@ AI is a vast field with many specializations. **Machine Learning** and **Deep Le
 - **VGG16**: A convolutional neural network model pre-trained on the ImageNet data set, commonly used in transfer learning for tasks involving image classification.
 - **Vector**: An ordered list of numbers, representing a point in space.
 - **Weight (w)**: A numerical value that determines the importance of an input in a neuron.  
+- **Word Embedding**: is a collective term in natural language processing for a set of modeling techniques in which words or phrases from a vocabulary are mapped into vectors of real numbers.
 - **Weight Update**: The process of updating a weight using the formula:  
-    \[ w_{\text{new}} = w_{\text{old}} - \alpha \cdot \text{gradient} \]
+    ${\text{new}} = w_{\text{old}} - \alpha \cdot \text{gradient}$
