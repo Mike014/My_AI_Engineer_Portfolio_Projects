@@ -30,6 +30,19 @@ I have completed the following course:
  conda activate ml_env
 ```
 
+### **MAP OF AI**
+
+- **𝗔𝗿𝘁𝗶𝗳𝗶𝗰𝗶𝗮𝗹 𝗜𝗻𝘁𝗲𝗹𝗹𝗶𝗴𝗲𝗻𝗰𝗲 (𝗔𝗜)** – The broadest category, covering automation, reasoning, and decision-making. Early AI was rule-based, but today, it's mainly data-driven.
+- **𝗠𝗮𝗰𝗵𝗶𝗻𝗲 𝗟𝗲𝗮𝗿𝗻𝗶𝗻𝗴 (𝗠𝗟)** – AI that learns patterns from data without explicit programming. Includes decision trees, clustering, and regression models.
+- **𝗡𝗲𝘂𝗿𝗮𝗹 𝗡𝗲𝘁𝘄𝗼𝗿𝗸𝘀 (𝗡𝗡)** – A subset of ML, inspired by the human brain, designed for pattern recognition and feature extraction.
+- **𝗗𝗲𝗲𝗽 𝗟𝗲𝗮𝗿𝗻𝗶𝗻𝗴 (𝗗𝗟)** – Multi-layered neural networks that drives a lot of modern AI advancements, for example enabling image recognition, speech processing, and more.
+- **𝗧𝗿𝗮𝗻𝘀𝗳𝗼𝗿𝗺𝗲𝗿𝘀** – A revolutionary deep learning architecture introduced by Google in 2017 that allows models to understand and generate language efficiently.
+- **𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗶𝘃𝗲 𝗔𝗜 (𝗚𝗲𝗻𝗔𝗜)** – AI that doesn’t just analyze data—it creates. From text and images to music and code, this layer powers today's most advanced AI models.
+- **𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗶𝘃𝗲 𝗣𝗿𝗲-𝗧𝗿𝗮𝗶𝗻𝗲𝗱 𝗧𝗿𝗮𝗻𝘀𝗳𝗼𝗿𝗺𝗲𝗿𝘀 (𝗚𝗣𝗧)** – A specific subset of Generative AI that uses transformers for text generation.
+- **𝗟𝗮𝗿𝗴𝗲 𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲 𝗠𝗼𝗱𝗲𝗹𝘀 (𝗟𝗟𝗠)** – Massive AI models trained on extensive datasets to understand and generate human-like language.
+- **𝗚𝗣𝗧-4** – One of the most advanced LLMs, built on transformer architecture, trained on vast datasets to generate human-like responses.
+- **𝗖𝗵𝗮𝘁𝗚𝗣𝗧** – A specific application of GPT-4, optimized for conversational AI and interactive use.
+
 ## **What is Artificial Intelligence (AI)?**
 **Artificial Intelligence (AI)** is a branch of computer science focused on creating systems capable of simulating aspects of human intelligence. This includes activities such as learning, reasoning, perception, language comprehension, and problem-solving.
 
