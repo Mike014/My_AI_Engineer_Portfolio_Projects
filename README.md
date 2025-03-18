@@ -2,6 +2,20 @@
 
 This repository presents some Machine Learning concepts acquired from my **AI Engineering Professional Certificate specialization course**.
 
+Here is a brief description of the libraries I have worked with so far in my AI Engineering journey:
+
+- **TensorFlow**: Google's open-source library for Machine Learning and Deep Learning. It supports complex neural networks and optimized computations on GPUs and TPUs.
+
+- **Keras**: High-level API integrated into TensorFlow, designed for building and training Deep Learning models in an intuitive and modular way.
+
+- **SmolAgents** (by Hugging Face): Framework for building autonomous AI agents, allowing you to combine LLM with interactive environments and automation tools.
+
+- **NLTK** (Natural Language Toolkit): Library for natural language processing (NLP), with tools for tokenization, stemming, lemmatization, parsing and more.
+
+- **Hugging Face Transformers**: Library for working with advanced NLP models such as BERT, GPT, T5 and LLaMA. It allows fine-tuning and inference on pre-trained models.
+
+- **Stable-Baselines3**: Advanced implementation of **Reinforcement Learning** algorithms based on PyTorch, used to train AI agents in various simulated and real environments.
+
 ## Certifications
 
 I have completed the following course:
