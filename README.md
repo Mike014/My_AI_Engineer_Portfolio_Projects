@@ -212,6 +212,7 @@ AI is a vast field with many specializations. **Machine Learning** and **Deep Le
 - **Data Augmentation**: is a pre-processing technique used in deep learning to artificially increase the amount of data available for training a model. This is done by applying random transformations to existing images, creating new versions with different variations.
 - **Data Denoising**: Automatic noise removal from data via autoencoders.  
 - **Decoder**: The part of an autoencoder that reconstructs the original input from the compressed representation. Generate the output sequence, step by step, using the encoder representation and previously generated information.
+- **Deep Reinforcement Learning (Deep RL)**: is a **subset of Machine Learning** in which an **agent learns to behave in an environment** by **performing actions** and **observing the results**.
 - **Deep Neural Network (DNN)**: A neural network with three or more hidden layers, capable of processing raw data such as images and text.  
 - **Dependent Variable (Target/Output)**: The variable that the model is intended to predict (e.g., churn: yes/no).  
 - **Dimensionality Reduction**: A technique to reduce the number of features in the data, improving efficiency and interpretability.  
@@ -223,6 +224,7 @@ AI is a vast field with many specializations. **Machine Learning** and **Deep Le
 - **Elastic Weight Consolidation (EWC)**: A **biologically inspired algorithm** that **slows learning on critical weights** for previous tasks, **preserving past knowledge** while learning new tasks.
 - **Elbow Method**: A method for finding the optimal number of clusters in K-Means.  
 - **Encoder**: The part of an autoencoder that reduces the dimensionality of data into a more compact representation. Transforms the input sequence into a dense numerical representation, capturing meaning and context.
+- **Environment:** An environment is a simulated world where an agent can learn by interacting with it.
 - **Epsilon-Tube**: The margin around the prediction in **SVR**, within which points are not penalized.  
 - **Epoch**: A complete training cycle where the model has seen all input data once.  
 - **Euclidean Distance**: Measures the straight-line distance between two points. Used in **K-Means, KNN, Image Analysis**.  
@@ -250,7 +252,8 @@ AI is a vast field with many specializations. **Machine Learning** and **Deep Le
 - **Hebb's theory**: simply put, says that neurons that fire together strengthen their connections, "neurons that fire together, wire together."
 - **Hidden Layer**: An intermediate layer in the neural network that processes information.  
 - **Hidden Layers**: Multiple intermediate layers that process data between the input and output layers.  
-- **Hierarchical Clustering**: A clustering technique that creates a hierarchical structure of groups.  
+- **Hierarchical Clustering**: A clustering technique that creates a hierarchical structure of groups. 
+- **Hyperparameter Tuning**: is the process of selecting the **optimal values** for a machine learning model’s hyperparameters. 
 - **Hyperbolic Tangent (Tanh)**: A sigmoid variant with outputs ranging from -1 to 1, providing more balanced values.  
 - **Hyperplane**: A multidimensional surface that separates data into different classes.  
 - **Image Classification**: An application of neural networks where images are categorized into different classes.  
@@ -267,7 +270,7 @@ AI is a vast field with many specializations. **Machine Learning** and **Deep Le
 - **Learning Rate (α)**: A parameter that controls the speed at which model parameters are updated.  
 - **LSTM (Long Short-Term Memory)**: An advanced type of recurrent neural network (RNN) that handles long-term dependencies more effectively by avoiding the vanishing gradient problem. Applications include image generation, automated writing, and the automatic description of images and videos.  
 - **Linear Combination (z)**: The weighted sum of inputs and weights, plus a bias:  
-    \[ z = (x₁·w₁) + (x₂·w₂) + b \]  
+    $[ z = (x₁·w₁) + (x₂·w₂) + b ]$  
 - **Linear Kernel**: Uses a simple hyperplane to separate classes.  
 - **Linear Regression**: A regression algorithm that predicts a continuous value based on a linear relationship between variables.  
 - **Log-Loss (Loss Function)**: A loss function used to measure the error in logistic regression.  
@@ -279,6 +282,7 @@ AI is a vast field with many specializations. **Machine Learning** and **Deep Le
 - **Margin**: The distance between the hyperplane and the nearest data points (**support vectors**).  
 - **Max-Pooling**: A technique that selects the maximum value within a region of the image.
 - **Matrix**: A table of numbers with rows and columns, used for linear transformations.
+- **Markov Property**: It implies that the action taken by our agent is conditional solely on the present state and independent of the past states and actions.
 - **Mean Squared Error (MSE)**: A loss function that measures error in regression models.  
 - **Meta learning** is the art of teaching AI to learn on its own, like a child learning to learn.
 - **Minkowski Distance**: A distance metric that generalizes Euclidean and Manhattan distances. Used in **Clustering, KNN, Geometry**.  
@@ -307,6 +311,7 @@ AI is a vast field with many specializations. **Machine Learning** and **Deep Le
 - **Parameters (θ)**: The model coefficients that are optimized during training.  
 - **PCA (Principal Component Analysis)**: A traditional algorithm for dimensionality reduction, limited to linear transformations.  
 - **Ponderation of Neighbors**: A technique in **KNN classification** that assigns greater weight to nearer neighbors.  
+- **Policy**: It is called **the agent’s brain**. It tells us what action to take, given the state.
 - **Polynomial Kernel**: Maps data into a more complex space using polynomial functions.  
 - **Pooling Layer**: A layer that reduces the dimensions of data (e.g., images) to optimize the network. 
 - **Pre-trained models**: are neural networks that have already been trained on large datasets.
@@ -316,6 +321,7 @@ AI is a vast field with many specializations. **Machine Learning** and **Deep Le
 - **Recommendation Systems**: Applications that suggest content based on the clustering of users or products.  
 - **Recurrent Neural Networks (RNNs)**: Deep neural networks designed to process sequential data by using previous outputs as inputs for subsequent steps.  
 - **ReLU (Rectified Linear Unit)**: The most commonly used activation function, which activates only neurons with positive input.  
+- **Reinforcement Learning (RL)**: is based on learning through interaction with the environment. An **agent** (an AI) performs actions in the environment and receives **rewards** (positive or negative) as feedback.
 - **Regression**: A statistical technique that estimates the relationship between a continuous dependent variable and one or more independent variables.  
 - **Regression Model**: A model that predicts a continuous numerical value, such as concrete strength.  
 - **Regression with KNN**: A method that predicts a numerical value by taking the mean or median of the values of the K nearest neighbors.  
