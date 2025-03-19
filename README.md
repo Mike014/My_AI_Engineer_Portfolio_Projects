@@ -251,8 +251,10 @@ AI is a vast field with many specializations. **Machine Learning** and **Deep Le
 - **Dropout**: Regularization technique that **reduces overfitting** by randomly deactivating a fraction of neurons during training.
 - **Dummy Class**: A fictitious class used in **One-vs-All** to separate a single class from the others.  
 - **Elastic Weight Consolidation (EWC)**: A **biologically inspired algorithm** that **slows learning on critical weights** for previous tasks, **preserving past knowledge** while learning new tasks.
-- **Elbow Method**: A method for finding the optimal number of clusters in K-Means.  
-- **Encoder**: The part of an autoencoder that reduces the dimensionality of data into a more compact representation. Transforms the input sequence into a dense numerical representation, capturing meaning and context.
+- **Elbow Method**: A method for finding the optimal number of clusters in K-Means. 
+- **Embedding Layer**: is a **way to represent categorical or discrete data** as continuous **vectors**. 
+- **Encoder**: The part of an autoencoder that reduces the dimensionality of data into a more compact representation. 
+Transforms the input sequence into a dense numerical representation, capturing meaning and context.
 - **Environment:** An environment is a simulated world where an agent can learn by interacting with it.
 - **Epsilon-Tube**: The margin around the prediction in **SVR**, within which points are not penalized.  
 - **Epoch**: A complete training cycle where the model has seen all input data once.  
@@ -266,11 +268,12 @@ AI is a vast field with many specializations. **Machine Learning** and **Deep Le
 - **Feature Selection**: The process of choosing the most relevant features to improve model accuracy.  
 - **Feature Standardization**: The process of scaling features so that they are comparable, reducing their unbalanced impact on predictions.  
 - **Features**: The input (independent) variables that describe the observations.  
-- **Feed-Forward Neural Network (FFNN)**: A neural network transforms the processed vector.
+- **Feed-Forward Neural Network (FFNN)**: A neural network transforms the processed vector. **Feedforward Network**,  connections between nodes **do not form cycles**, **information** only moves in one direction, **forward**.
 - **Fine-Tuning**: A technique in which some layers of a pre-trained model are "unlocked" and retrained on a new specific dataset.
 - **Fisher Information**: Fisher Information tells you how "sensitive" the probability of your data is to small changes in these parameters.
 - **Flattening**: Transforming the convolutional output into a vector for the dense layer.  
 - **Forward Propagation**: The process by which data passes through the **neural network**, from input to output.  
+
 - **Fully Connected Layer**: Also known as the **Dense Layer**; the final layer for classification using **Softmax**. The **final layers** of a CNN that perform classification.
 - **Functional API**: An alternative to the Sequential API that allows for creating more **complex and flexible** models, with multiple inputs/outputs and non-linear connections.
 - **Gamma**: A parameter of **RBF and polynomial kernels** that controls how much a single data point influences the decision boundary.  
@@ -296,6 +299,7 @@ AI is a vast field with many specializations. **Machine Learning** and **Deep Le
 - **Kernel**: A function that transforms data, making it separable in high-dimensional spaces.  
 - **Keras**: A deep learning library used to build neural networks quickly and easily.  
 - **Labeled Data**: A dataset in which each example has an assigned class for training purposes.  
+- **Layer Normalization**: A technique that **normalizes the activations** within each layer of the network, **stabilizing and accelerating the training process**. It normalizes the inputs across the features, instead of across the batch like Batch Normalization.
 - **Learning Rate (α)**: A parameter that controls the speed at which model parameters are updated.  
 - **LSTM (Long Short-Term Memory)**: An advanced type of recurrent neural network (RNN) that handles long-term dependencies more effectively by avoiding the vanishing gradient problem. Applications include image generation, automated writing, and the automatic description of images and videos.  
 - **Linear Combination (z)**: The weighted sum of inputs and weights, plus a bias:  
@@ -318,7 +322,8 @@ AI is a vast field with many specializations. **Machine Learning** and **Deep Le
 - **Minimum Global (Global Minimum)**: The lowest point of the cost function, representing the smallest possible error.  
 - **Minimum Local (Local Minimum)**: A low point in the cost function, which is not necessarily the absolute minimum, where the model may become stuck.  
 - **MNIST**: is a dataset of images of handwritten digits, commonly used to train and test machine learning models.
-- **Multicollinearity**: A phenomenon where two or more features are strongly correlated, negatively affecting the model.  
+- **Multicollinearity**: A phenomenon where two or more features are strongly correlated, negatively affecting the model.
+- **Multi-Head Attention Layer**: A mechanism that allows the model to **attend to different parts of the input sequence and learn relationships between them**. It uses multiple "heads" to **focus on different aspects of the data**, improving the model's ability to capture complex patterns.  
 - **Multinomial Logistic Regression**: A statistical model that generalizes binary logistic regression for multi-class classification.  
 - **Multi-Class Classification**: A problem in which a data point must be assigned to one of **K** available classes.  
 - **Neural Network**: A computational model inspired by the human brain, composed of interconnected artificial neurons.  
