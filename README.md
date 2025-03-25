@@ -201,9 +201,9 @@ AI that **processes data directly on devices**, without relying on the cloud.
 ### **Conclusion**  
 AI is a vast field with many specializations. **Machine Learning** and **Deep Learning** are fundamental, but other crucial areas include **NLP, Computer Vision, and Generative AI**.
 
-### **Glossary of Terms Used in the Course** 
-
 ## **Glossary of [Google](https://developers.google.com/machine-learning/glossary?hl=it#a)**
+
+### **Glossary of Terms Used in the Course** 
 
 - **Activation Function**: A mathematical function that introduces **non-linearity** into the model, allowing it to solve complex problems.  
 - **Adam Optimizer**: An advanced optimization algorithm that improves gradient descent.  
