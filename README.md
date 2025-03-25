@@ -300,6 +300,7 @@ Transforms the input sequence into a dense numerical representation, capturing m
 - **Keras**: A deep learning library used to build neural networks quickly and easily.  
 - **Labeled Data**: A dataset in which each example has an assigned class for training purposes.  
 - **Layer Normalization**: A technique that **normalizes the activations** within each layer of the network, **stabilizing and accelerating the training process**. It normalizes the inputs across the features, instead of across the batch like Batch Normalization.
+- **Latent space**: is a **representation of data** in a multidimensional space in which similar elements are placed close together. It is created using machine learning, often by reducing the dimensionality of the data to compress it.
 - **Learning Rate (α)**: A parameter that controls the speed at which model parameters are updated.  
 - **LSTM (Long Short-Term Memory)**: An advanced type of recurrent neural network (RNN) that handles long-term dependencies more effectively by avoiding the vanishing gradient problem. Applications include image generation, automated writing, and the automatic description of images and videos.  
 - **Linear Combination (z)**: The weighted sum of inputs and weights, plus a bias:  
@@ -360,6 +361,7 @@ Transforms the input sequence into a dense numerical representation, capturing m
 - **Regression Model**: A model that predicts a continuous numerical value, such as concrete strength.  
 - **Regression with KNN**: A method that predicts a numerical value by taking the mean or median of the values of the K nearest neighbors.  
 - **Reinforcement Learning (RL)**: is a machine learning paradigm in which an agent learns to make decisions by interacting with an environment.
+- **Reparameterization Trick**: a **fundamental technique in variational inference**, particularly when working with models such as Variational Autoencoders (VAE).
 - **Santiago Ramón y Cajal**: The Spanish scientist considered the father of modern neuroscience. 
 - **Scalar**: A single number, an isolated value.
 - **Self-Attention Mechanism**: Allows the **model to weight words** in the **context of a sentence**. Each word compares itself to all other words in the sentence, calculating how important it is compared to the others (attention weights).
@@ -393,6 +395,7 @@ Transforms the input sequence into a dense numerical representation, capturing m
 - **Underfitting**: When the model is too simple to capture the underlying patterns in the data, leading to inaccurate predictions.  
 - **Unsupervised Learning**: Machine learning without labels, where the model finds patterns in the data.  
 - **UpSampling2D (Decoding for Autoencoders)**: The inverse operation of pooling, which increases the input size by replicating its values.
+- **Variational Autoencoders (VAE)**: Generative machine learning models that **create new variations of input data**. They are **autoencoders that encode latent variables** in a **probabilistic and continuous**, not discrete, way. They use **variational inference** to generate new data samples.
 - **val_loss**: Measures the error on the test/validation data.
 - **Values of K**: The number of neighbors considered when determining the class or target value in **KNN**.  
 - **Vanishing Gradient Problem**: A problem where gradients become too small during training, making the learning process slow and ineffective.  
