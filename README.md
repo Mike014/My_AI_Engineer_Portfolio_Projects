@@ -471,3 +471,24 @@ Transforms the input sequence into a dense numerical representation, capturing m
 - **Case $l = 1$**: Maximize $d^T X^T X d$, with $\|d\| = 1$.
 - **Solution**: The first eigenvector of $X^T X$ or the first right singular vector of the SVD.
 - **With SVD**: The principal components are the first columns of $V$ in the decomposition $X = U D V^T$.
+
+# **Linear Algebra**
+
+| Mathematical Concept | Mathematical Description |
+|----------------------|-------------------------|
+| **Vector Space** | Set of all vectors that can be generated through linear combinations |
+| **Orthonormal Basis** | Minimum set of independent vectors that generate the entire space | 
+| **Span** | Everything that can be generated from a basis | 
+| **Linear Dependence** | A vector is redundant, can be obtained from others | 
+| **Linear Transformation (Ax = b)** | Application of a matrix to a vector |
+| **Eigenvectors / Eigenvalues** | Invariant directions under transformation, and their "scaling" coefficient | 
+| **Orthogonality** | Two vectors do not interfere (90° angle) |
+| **Orthogonal Matrix** | Preserves norms, angles, spatial identity | 
+| **Norm (L2)** | Measure of distance or intensity of a vector | 
+| **SVD (A = UDVᵀ)** | Universal decomposition of a transformation | 
+| **Moore-Penrose Pseudoinverse** | Recovery of a solution even when A is not invertible | 
+| **PCA** | Projection on directions that explain more variance | 
+| **Symmetric Matrix** | A = Aᵀ: perfectly balanced | 
+| **Singularity** | Non-invertible matrix → loss of information | 
+| **Vector Projection (x → d dᵀ x)** | Reducing reality to a single dimension | 
+| **Frobenius Norm** | Measure of total energy of a transformation | 
