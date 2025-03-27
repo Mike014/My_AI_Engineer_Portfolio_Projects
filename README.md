@@ -238,12 +238,14 @@ AI is a vast field with many specializations. **Machine Learning** and **Deep Le
 - **Convolutional Base**: Part of a CNN model that extracts features from images without including fully connected layers. 
 - **Conv2D (Convolutional Layer)**: A convolutional layer that applies filters to the input to extract important features.
 - **Cropping2D (Output Cropping)**: Trims parts of the output to correct mismatches in dimensions.
+- **K-means algorithm**: A popular clustering technique that partitions a dataset into distinct groups based on the features of the data points.
 - **Data Augmentation**: is a pre-processing technique used in deep learning to artificially increase the amount of data available for training a model. This is done by applying random transformations to existing images, creating new versions with different variations.
 - **Data Denoising**: Automatic noise removal from data via autoencoders.  
 - **Decoder**: The part of an autoencoder that reconstructs the original input from the compressed representation. Generate the output sequence, step by step, using the encoder representation and previously generated information.
 - **Deep Reinforcement Learning (Deep RL)**: is a **subset of Machine Learning** in which an **agent learns to behave in an environment** by **performing actions** and **observing the results**.
 - **Deep Neural Network (DNN)**: A neural network with three or more hidden layers, capable of processing raw data such as images and text.  
 - **Dependent Variable (Target/Output)**: The variable that the model is intended to predict (e.g., churn: yes/no).  
+- **Denoising**: The process of removing noise from data, such as images, to improve their quality.
 - **Dimensionality Reduction**: A technique to reduce the number of features in the data, improving efficiency and interpretability.  
 - **Derivative**: Measures the rate of change of a function; used to calculate the slope of the cost function.  
 - **Diffusion models***: A **class of generative machine learning models** that produce **high-quality synthetic data**. These models work by gradually **transforming a noisy initial sample** through a **series of passes**.
@@ -353,6 +355,7 @@ Transforms the input sequence into a dense numerical representation, capturing m
 - **Polynomial Kernel**: Maps data into a more complex space using polynomial functions.  
 - **Pooling Layer**: A layer that reduces the dimensions of data (e.g., images) to optimize the network. 
 - **Pre-trained models**: are neural networks that have already been trained on large datasets.
+- **Probabilistic model**: A model that incorporates randomness and uncertainty, often used to predict distributions or simulate processes that have inherent variability.
 - **RBM (Restricted Boltzmann Machine)**: An advanced unsupervised model used to generate missing data, balance datasets, and extract features.  
 - **RBF (Radial Basis Function) Kernel**: A kernel that uses a transformation based on the distance between points to separate complex data.  
 - **Random noise**: A type of custom augmentation that adds random noise to images, simulating different lighting conditions and sensor noise to make models more robust.
@@ -365,6 +368,7 @@ Transforms the input sequence into a dense numerical representation, capturing m
 - **Regression with KNN**: A method that predicts a numerical value by taking the mean or median of the values of the K nearest neighbors.  
 - **Reinforcement Learning (RL)**: is a machine learning paradigm in which an agent learns to make decisions by interacting with an environment.
 - **Reparameterization Trick**: a **fundamental technique in variational inference**, particularly when working with models such as Variational Autoencoders (VAE).
+- **Reverse process**: In diffusion models, the process of removing noise step by step to reconstruct the original data from a noisy sample.
 - **Santiago Ramón y Cajal**: The Spanish scientist considered the father of modern neuroscience. 
 - **Scalar**: A single number, an isolated value.
 - **Self-Attention Mechanism**: Allows the **model to weight words** in the **context of a sentence**. Each word compares itself to all other words in the sentence, calculating how important it is compared to the others (attention weights).
@@ -396,6 +400,7 @@ Transforms the input sequence into a dense numerical representation, capturing m
 - **Transfer Learning**: It is a technique that allows you to reuse pre-trained models on large datasets for new and related tasks.
 - **Transpose convolution**: An operation that reverses the effects of convolution, often used for up-sampling in image processing.
 - **Transpose**: Swaps rows and columns of a matrix.
+- **t-distributed stochastic neighbor embedding (t-SNE)**:	A dimensionality reduction technique used for visualizing high-dimensional data by giving each datapoint a location in a two or three-dimensional map.
 - **Underfitting**: When the model is too simple to capture the underlying patterns in the data, leading to inaccurate predictions.  
 - **Unsupervised Learning**: Machine learning without labels, where the model finds patterns in the data.  
 - **UpSampling2D (Decoding for Autoencoders)**: The inverse operation of pooling, which increases the input size by replicating its values.
@@ -410,6 +415,7 @@ Transforms the input sequence into a dense numerical representation, capturing m
 - **Word Embedding**: is a collective term in natural language processing for a set of modeling techniques in which words or phrases from a vocabulary are mapped into vectors of real numbers.
 - **Weight Update**: The process of updating a weight using the formula:  
     ${\text{new}} = w_{\text{old}} - \alpha \cdot \text{gradient}$
+- **Zero-Sum Game**:	A situation in competitive contexts where gain or loss of participants is exactly balanced by the losses or gains of another participant.
 
 # Linear Algebra Glossary for Deep Learning
 
