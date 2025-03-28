@@ -237,6 +237,7 @@ AI is a vast field with many specializations. **Machine Learning** and **Deep Le
 - **Convolution operation in CNN**: A mathematical process that allows the network to extract relevant features from an image.
 - **Convolutional Base**: Part of a CNN model that extracts features from images without including fully connected layers. 
 - **Conv2D (Convolutional Layer)**: A convolutional layer that applies filters to the input to extract important features.
+- **Cosine Similarity**: how similar two vectors are
 - **Cropping2D (Output Cropping)**: Trims parts of the output to correct mismatches in dimensions.
 - **K-means algorithm**: A popular clustering technique that partitions a dataset into distinct groups based on the features of the data points.
 - **Data Augmentation**: is a pre-processing technique used in deep learning to artificially increase the amount of data available for training a model. This is done by applying random transformations to existing images, creating new versions with different variations.
@@ -288,6 +289,7 @@ Transforms the input sequence into a dense numerical representation, capturing m
 - **Hidden Layer**: An intermediate layer in the neural network that processes information.  
 - **Hidden Layers**: Multiple intermediate layers that process data between the input and output layers.  
 - **Hierarchical Clustering**: A clustering technique that creates a hierarchical structure of groups. 
+- **Hyperparameter**: These are model values ​​or settings that are not automatically learned from the data, but are manually chosen by the researcher, or optimized with particular search strategies.
 - **Hyperparameter Tuning**: is the process of selecting the **optimal values** for a machine learning model’s hyperparameters. 
 - **Hyperbolic Tangent (Tanh)**: A sigmoid variant with outputs ranging from -1 to 1, providing more balanced values.  
 - **Hyperplane**: A multidimensional surface that separates data into different classes.  
@@ -321,7 +323,8 @@ Transforms the input sequence into a dense numerical representation, capturing m
 - **Matrix**: A table of numbers with rows and columns, used for linear transformations.
 - **Markov Property**: It implies that the action taken by our agent is conditional solely on the present state and independent of the past states and actions.
 - **Mean Squared Error (MSE)**: A loss function that measures error in regression models.  
-- **Meta learning** is the art of teaching AI to learn on its own, like a child learning to learn.
+- **Meta learning** is the art of teaching AI to learn on its own, like a child learning to learn. Meta-learning in machine learning refers to learning algorithms that learn from other learning algorithms.
+Most commonly, this means the use of machine learning algorithms that learn how to best combine the predictions from other machine learning algorithms in the field of ensemble learning.
 - **Minkowski Distance**: A distance metric that generalizes Euclidean and Manhattan distances. Used in **Clustering, KNN, Geometry**.  
 - **Minimum Global (Global Minimum)**: The lowest point of the cost function, representing the smallest possible error.  
 - **Minimum Local (Local Minimum)**: A low point in the cost function, which is not necessarily the absolute minimum, where the model may become stuck.  
@@ -341,6 +344,7 @@ Transforms the input sequence into a dense numerical representation, capturing m
 - **One-Hot Encoding**: A technique to convert **categorical variables** into numeric form for machine learning models such as logistic regression.  
 - **One-vs-All (One-vs-Rest)**: A multi-class classification strategy where a binary classifier is built for each class, distinguishing it from all other classes.  
 - **One-vs-One**: A classification strategy in which a binary classifier is trained for each pair of classes, and the final decision is made based on the majority vote.  
+- **One-shot learning**: is an object categorization problem, found mostly in computer vision. Whereas most machine learning-based object categorization algorithms require training on hundreds or thousands of examples, one-shot learning aims to classify objects from one, or only a few, examples. 
 - **Open System**: is a structure that constantly exchanges matter, energy, or information with its external environment. Unlike isolated systems, these systems have permeable and dynamic boundaries.
 - **Outlier Detection**: The process of identifying anomalous data points in a dataset.  
 - **Output Layer**: The final layer of a neural network that produces the result.  
