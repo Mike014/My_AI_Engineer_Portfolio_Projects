@@ -208,6 +208,7 @@ AI is a vast field with many specializations. **Machine Learning** and **Deep Le
 - **Activation Function**: A mathematical function that introduces **non-linearity** into the model, allowing it to solve complex problems.  
 - **Adam Optimizer**: An advanced optimization algorithm that improves gradient descent.  
 - **Algorithm**: A set of step-by-step instructions for solving a problem or making a prediction in machine learning.  
+- **Algorithm design**: The **laws of probability guide how AI systems should reason**. Algorithms are therefore built to compute (or approximate) probabilistic expressions.
 - **Argmax**: A function that returns the index of the maximum value in a set. In multi-class classification, it determines the class with the highest probability.  
 - **Artificial Neuron**: A mathematical model inspired by biological neurons, used in artificial neural networks.  
 - **Autoencoder**: An unsupervised neural network that learns to compress and decompress data without human intervention.  
@@ -296,6 +297,7 @@ Transforms the input sequence into a dense numerical representation, capturing m
 - **Image Classification**: An application of neural networks where images are categorized into different classes.  
 - **Independent Variables (Feature/Input)**: The variables used for making predictions (e.g., age, income, purchasing habits).  
 - **Inference**: The process of using a trained model to make predictions on new, unseen data.  
+- **Information theory**: Is used to **quantify uncertainty** within a probability distribution.
 - **Input Layer**: The first layer of the neural network that receives the initial data.  
 - **Iteration**: A cycle in the algorithm where weights are updated to approach the optimal value.  
 - **K-Nearest Neighbors (KNN)**: A supervised learning algorithm that classifies or predicts based on the nearest neighbors.  
