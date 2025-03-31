@@ -312,6 +312,7 @@ Transforms the input sequence into a dense numerical representation, capturing m
     $[ z = (x₁·w₁) + (x₂·w₂) + b ]$  
 - **Linear Kernel**: Uses a simple hyperplane to separate classes.  
 - **Linear Regression**: A regression algorithm that predicts a continuous value based on a linear relationship between variables.  
+- **LLM**: A language model **estimates the probability that a sequence of words will appear**.
 - **Log-Loss (Loss Function)**: A loss function used to measure the error in logistic regression.  
 - **Logistic Regression**: A classification algorithm that predicts the probability that an observation belongs to a class.  
 - **Logit**: The logarithm of the odds ratio, used to model log-linear relationships.  
@@ -329,6 +330,7 @@ Most commonly, this means the use of machine learning algorithms that learn how 
 - **Minimum Global (Global Minimum)**: The lowest point of the cost function, representing the smallest possible error.  
 - **Minimum Local (Local Minimum)**: A low point in the cost function, which is not necessarily the absolute minimum, where the model may become stuck.  
 - **MNIST**: is a dataset of images of handwritten digits, commonly used to train and test machine learning models.
+- **Mixture of Experts (MoE)**: is an **architecture** that combines **multiple** specialized **models**, called **“experts,”** to **address complex tasks more efficiently and effectively**.
 - **Multicollinearity**: A phenomenon where two or more features are strongly correlated, negatively affecting the model.
 - **Multi-Head Attention Layer**: A mechanism that allows the model to **attend to different parts of the input sequence and learn relationships between them**. It uses multiple "heads" to **focus on different aspects of the data**, improving the model's ability to capture complex patterns.  
 - **Multinomial Logistic Regression**: A statistical model that generalizes binary logistic regression for multi-class classification.  
@@ -361,6 +363,7 @@ Most commonly, this means the use of machine learning algorithms that learn how 
 - **Pooling Layer**: A layer that reduces the dimensions of data (e.g., images) to optimize the network. 
 - **Pre-trained models**: are neural networks that have already been trained on large datasets.
 - **Probabilistic model**: A model that incorporates randomness and uncertainty, often used to predict distributions or simulate processes that have inherent variability.
+- **[Prompt Engineering](https://github.com/Mike014/LLM_Concepts/blob/main/Prompt_Engineering.ipynb)**: Creating clear and optimized prompts to guide the model to give correct answers.
 - **RBM (Restricted Boltzmann Machine)**: An advanced unsupervised model used to generate missing data, balance datasets, and extract features.  
 - **RBF (Radial Basis Function) Kernel**: A kernel that uses a transformation based on the distance between points to separate complex data.  
 - **Random noise**: A type of custom augmentation that adds random noise to images, simulating different lighting conditions and sensor noise to make models more robust.
