@@ -290,7 +290,7 @@ Transforms the input sequence into a dense numerical representation, capturing m
 - **Hidden Layer**: An intermediate layer in the neural network that processes information.  
 - **Hidden Layers**: Multiple intermediate layers that process data between the input and output layers.  
 - **Hierarchical Clustering**: A clustering technique that creates a hierarchical structure of groups. 
-- **Hyperparameter**: These are model values ​​or settings that are not automatically learned from the data, but are manually chosen by the researcher, or optimized with particular search strategies.
+- **Hyperparameter**: These are model values ​​or settings that are not automatically learned from the data, but are manually chosen by the researcher, or optimized with particular search strategies. **Hyperparameters are values that define how your model is trained**
 - **Hyperparameter Tuning**: is the process of selecting the **optimal values** for a machine learning model’s hyperparameters. 
 - **Hyperbolic Tangent (Tanh)**: A sigmoid variant with outputs ranging from -1 to 1, providing more balanced values.  
 - **Hyperplane**: A multidimensional surface that separates data into different classes.  
