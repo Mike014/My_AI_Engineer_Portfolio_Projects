@@ -333,6 +333,7 @@ Most commonly, this means the use of machine learning algorithms that learn how 
 - **Minimum Local (Local Minimum)**: A low point in the cost function, which is not necessarily the absolute minimum, where the model may become stuck.  
 - **MNIST**: is a dataset of images of handwritten digits, commonly used to train and test machine learning models.
 - **Mixture of Experts (MoE)**: is an **architecture** that combines **multiple** specialized **models**, called **“experts,”** to **address complex tasks more efficiently and effectively**.
+- **Mixed precision training**: An **optimization tool** that leverages both **16-bit and 32-bit floating-point types** to accelerate model training and reduce memory usage.
 - **Multicollinearity**: A phenomenon where two or more features are strongly correlated, negatively affecting the model.
 - **Multi-Head Attention Layer**: A mechanism that allows the model to **attend to different parts of the input sequence and learn relationships between them**. It uses multiple "heads" to **focus on different aspects of the data**, improving the model's ability to capture complex patterns.  
 - **Multinomial Logistic Regression**: A statistical model that generalizes binary logistic regression for multi-class classification.  
