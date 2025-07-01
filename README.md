@@ -366,6 +366,7 @@ Most commonly, this means the use of machine learning algorithms that learn how 
 - **Pooling Layer**: A layer that reduces the dimensions of data (e.g., images) to optimize the network. 
 - **Pre-trained models**: are neural networks that have already been trained on large datasets.
 - **Probabilistic model**: A model that incorporates randomness and uncertainty, often used to predict distributions or simulate processes that have inherent variability.
+- ***Q-learning**: is a **reinforcement learning algorithm** that teaches an agent which action to perform in each state to **maximize cumulative rewards**.
 - **[Prompt Engineering](https://github.com/Mike014/LLM_Concepts/blob/main/Prompt_Engineering.ipynb)**: Creating clear and optimized prompts to guide the model to give correct answers.
 - **RBM (Restricted Boltzmann Machine)**: An advanced unsupervised model used to generate missing data, balance datasets, and extract features.  
 - **RBF (Radial Basis Function) Kernel**: A kernel that uses a transformation based on the distance between points to separate complex data.  
