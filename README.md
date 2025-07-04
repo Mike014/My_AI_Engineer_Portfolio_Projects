@@ -218,7 +218,8 @@ AI is a vast field with many specializations. **Machine Learning** and **Deep Le
 - **Backpropagation**: An algorithm that optimizes **weights** and **biases** by correcting the model’s errors.  
 - **BatchNormalization (Normalization)**: Technique that improves training stability and speed by **normalizing the output of layers to have a mean of zero** and a variance of one, applied during both training and inference.
 - **Batch Size**: Number of samples processed by the model in a single training step.
-- **Bagging (Bootstrap Aggregating)**: An ensemble learning method that reduces **variance** by training multiple models on random subsets of data and averaging their predictions. Used in **Random Forests**.  
+- **Bagging (Bootstrap Aggregating)**: An ensemble learning method that reduces **variance** by training multiple models on random subsets of data and averaging their predictions. Used in **Random Forests**.
+- **Bellman Equation Formula**: used to update Q-values ​​by leveraging the reward and future Q-value estimation. 
 - **Bias**: Systematic error of the model, indicating how far the predictions are from the actual values. High bias causes **underfitting**.  
 - **Bias (b)**: A constant added to the equation to improve the model’s learning ability.  
 - **Binary Classifier**: A model that distinguishes between only two classes (e.g., positive/negative). It serves as the basis for multi-class strategies like **One-vs-All** and **One-vs-One**.  
@@ -226,6 +227,7 @@ AI is a vast field with many specializations. **Machine Learning** and **Deep Le
 - **Broadcasting**: A rule that allows operations between arrays of different sizes by automatically adjusting dimensions. 
 - **Centroid**: The central point of a cluster.  
 - **Categorical Cross-Entropy**: A loss function used for multi-class classification.  
+- **CartPole**: Classic RL environment where you try to balance a pole on a moving cart.
 - **Cost Function**: It would calculate how wrong the model's answer is.
 - **Checkerboard Artifacts**: Distortions due to uneven overlapping of convolutional filters.
 - **Churn Prediction**: The process of predicting whether a customer will abandon a service or subscription.  
@@ -251,8 +253,10 @@ AI is a vast field with many specializations. **Machine Learning** and **Deep Le
 - **Dimensionality Reduction**: A technique to reduce the number of features in the data, improving efficiency and interpretability.  
 - **Derivative**: Measures the rate of change of a function; used to calculate the slope of the cost function.  
 - **Diffusion models***: A **class of generative machine learning models** that produce **high-quality synthetic data**. These models work by gradually **transforming a noisy initial sample** through a **series of passes**.
+- **Discount Factor (γ)**: Discount factor that penalizes future rewards compared to immediate ones.
 - **Distance Euclidean**: A metric for calculating the distance between two points in multidimensional space.  
 - **Distance Manhattan**: A metric based on orthogonal (grid-like) paths, an alternative to Euclidean distance.  
+- **DQN (Deep Q-Network)**: Variant that uses a neural network instead of the Q-table.
 - **Dropout**: Regularization technique that **reduces overfitting** by randomly deactivating a fraction of neurons during training.
 - **Dummy Class**: A fictitious class used in **One-vs-All** to separate a single class from the others.  
 - **Elastic Weight Consolidation (EWC)**: A **biologically inspired algorithm** that **slows learning on critical weights** for previous tasks, **preserving past knowledge** while learning new tasks.
@@ -261,8 +265,11 @@ AI is a vast field with many specializations. **Machine Learning** and **Deep Le
 - **Encoder**: The part of an autoencoder that reduces the dimensionality of data into a more compact representation. 
 Transforms the input sequence into a dense numerical representation, capturing meaning and context.
 - **Environment:** An environment is a simulated world where an agent can learn by interacting with it.
-- **Epsilon-Tube**: The margin around the prediction in **SVR**, within which points are not penalized.  
+- **Epsilon-Tube**: The margin around the prediction in **SVR**, within which points are not penalized.
+- **Epsilon-greedy Strategy**: that balances exploration and exploitation: acts randomly with probability epsilon, otherwise follows the policy.  
 - **Epoch**: A complete training cycle where the model has seen all input data once.  
+- **Experience Replay**: A technique that saves past experiences in a buffer and samples them randomly to stabilize learning.
+- **Exploration Rate (ε)** Parameter that controls the probability of random choice of the action.
 - **Euclidean Distance**: Measures the straight-line distance between two points. Used in **K-Means, KNN, Image Analysis**.  
 - **Feature**: An independent variable used as input for the model.  
 - **Feature Extraction**: A process in which a **pre-trained neural network** is used to extract significant features from new images.
@@ -282,6 +289,7 @@ Transforms the input sequence into a dense numerical representation, capturing m
 - **Fully Connected Layer**: Also known as the **Dense Layer**; the final layer for classification using **Softmax**. The **final layers** of a CNN that perform classification.
 - **Functional API**: An alternative to the Sequential API that allows for creating more **complex and flexible** models, with multiple inputs/outputs and non-linear connections.
 - **Gamma**: A parameter of **RBF and polynomial kernels** that controls how much a single data point influences the decision boundary.  
+- **Gym (OpenAI) Toolkit**: for simulating standardized RL environments like CartPole, Pong, etc.
 - **Gradient Descent**: An iterative algorithm used to minimize the cost function.  
 - **Gradients**: Values that indicate how much the network's weights should be updated. Too small values make learning slow.  
 - **Ground Truth**: The actual or correct value that the model is intended to predict.  
@@ -344,6 +352,7 @@ Most commonly, this means the use of machine learning algorithms that learn how 
 - **Noise**: In the scattering process, noise is a **random disturbance added to the data** 
 - **Non-linearity**: A property that enables a model to learn complex relationships between variables.  
 - **Nucleus**: The part of the neuron that contains the cell’s genetic material and processes received information.  
+- **Numerical Computation**: Fundamental in machine learning algorithms, which often require **mathematical calculations performed iteratively**, rather than direct analytical solutions.
 - **Observations**: The rows in a dataset, each containing information about a single example.  
 - **Odds Ratio**: The ratio between the probability of success and the probability of failure.  
 - **One-Hot Encoding**: A technique to convert **categorical variables** into numeric form for machine learning models such as logistic regression.  
@@ -366,6 +375,7 @@ Most commonly, this means the use of machine learning algorithms that learn how 
 - **Pooling Layer**: A layer that reduces the dimensions of data (e.g., images) to optimize the network. 
 - **Pre-trained models**: are neural networks that have already been trained on large datasets.
 - **Probabilistic model**: A model that incorporates randomness and uncertainty, often used to predict distributions or simulate processes that have inherent variability.
+- **Q-Function**: Function that estimates the expected value of a certain action in a given state: Q(s, a).
 - ***Q-learning**: is a **reinforcement learning algorithm** that teaches an agent which action to perform in each state to **maximize cumulative rewards**.
 - **[Prompt Engineering](https://github.com/Mike014/LLM_Concepts/blob/main/Prompt_Engineering.ipynb)**: Creating clear and optimized prompts to guide the model to give correct answers.
 - **RBM (Restricted Boltzmann Machine)**: An advanced unsupervised model used to generate missing data, balance datasets, and extract features.  
@@ -380,6 +390,7 @@ Most commonly, this means the use of machine learning algorithms that learn how 
 - **Regression with KNN**: A method that predicts a numerical value by taking the mean or median of the values of the K nearest neighbors.  
 - **Reinforcement Learning (RL)**: is a machine learning paradigm in which an agent learns to make decisions by interacting with an environment.
 - **Reparameterization Trick**: a **fundamental technique in variational inference**, particularly when working with models such as Variational Autoencoders (VAE).
+- **Replay Buffer FIFO**: memory that holds a moving window of the agent’s past experiences.
 - **Reverse process**: In diffusion models, the process of removing noise step by step to reconstruct the original data from a noisy sample.
 - **Santiago Ramón y Cajal**: The Spanish scientist considered the father of modern neuroscience. 
 - **Scalar**: A single number, an isolated value.
@@ -404,6 +415,7 @@ Most commonly, this means the use of machine learning algorithms that learn how 
 - **Support Vector Regression (SVR)**: A variant of SVM used for predicting continuous values.  
 - **Support Vectors**: Data points that are closest to the hyperplane and influence class separation.  
 - **Target**: The dependent or output variable that the model is intended to predict.  
+- **Target Network**: A stable and less frequently updated copy of the main Q-network, used to compute training targets.
 - **Temporal Context**: Relevant information over time that influences the processing of sequential data.  
 - **Tensors**: Fundamental data structure in artificial intelligence, providing a means of storing both input and output data within a model,  A multi-dimensional array, a generalization of vectors and matrices.
 - **Theta Coefficient**: Values that indicate **how much each feature affects the prediction**.  
