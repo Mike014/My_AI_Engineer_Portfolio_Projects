@@ -21,7 +21,7 @@ Here is a brief description of the libraries I have worked with so far in my AI 
 I have completed the following course:
 
 - [Coursera: Verify my certificate](https://www.coursera.org/account/accomplishments/verify/SZ0JP21DH4Z1)
-
+- [Advanced Deep Learning Specialist](https://www.credly.com/badges/6080139a-4939-496d-9fec-e00a49210da2)
 <img src="https://github.com/Mike014/My_AI_Engineer_Portfolio_Projects/blob/main/Badge_IBM_ML.png" alt="Intro to Generative AI" width="300"/>
 
 ## Create a virtual environment with **Conda**:
