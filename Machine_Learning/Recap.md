@@ -58,3 +58,56 @@ Understanding these distinctions is fundamental in selecting the appropriate mac
 ## **Quick Summary**
 * **Supervised** → With labels → **Classification & Regression**
 * **Unsupervised** → Without labels → **Clustering & Pattern Discovery, Latent Representation Learning**
+
+
+### Examples
+
+### **Supervised Learning Example**
+
+**Scenario:** Spam email recognition.
+
+* **Input data:** Thousands of emails labeled *"spam"* or *"not spam"*.
+* **What the model does:** Learns from the data which words, phrases, or patterns indicate spam.
+* **Real-world use:** When a new email arrives, the model predicts whether it's spam or not.
+
+Here I have **input (email text)** + **output (spam/not spam label)** → therefore **supervised learning**.
+
+### Output (Y)
+- **Label:** `spam` or `not spam`
+
+### Input (X) → Features describing the email
+- Email length (number of words/characters)  
+- Presence of suspicious keywords (`"free"`, `"lottery"`, `"click here"`, …)  
+- Sender's domain type (`@gmail`, `@yahoo`, `@strange.biz`, …)  
+- Number of links in the body of the text  
+- Frequency of uppercase letters or exclamation points  
+- Attachments present or absent  
+
+---
+
+### **Unsupervised Learning Example**
+
+**Scenario:** Customized music playlist.
+
+* **Input data:** Millions of songs, but without "genre" or "mood" labels.
+* **What the model does:** Analyzes features (bpm, instruments, key) and groups songs into similar clusters.
+* **Real-world usage:** Spotify can recommend songs you don't know, but that fit within the music cluster you listen to.
+
+Here I only have **inputs (song features)** without tags → the model finds **hidden patterns**.
+
+Here I have **only input (email features)**, with **no labels** → therefore **unsupervised learning**.
+
+### Input (X) → Features describing the email
+- Email length (number of words/characters)  
+- Presence of keywords  
+- Sender's domain type (`@gmail`, `@yahoo`, `@biz`, …)  
+- Number of links in the body  
+- Frequency of uppercase letters or exclamation points  
+- Attachments present or absent  
+
+### What the model does
+- Groups emails into **clusters** based on similarity.  
+- Example results:  
+  - **Cluster 1:** marketing/promotions  
+  - **Cluster 2:** personal communications  
+  - **Cluster 3:** suspicious/spam-like emails  

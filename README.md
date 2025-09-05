@@ -16,6 +16,8 @@ Here is a brief description of the libraries I have worked with so far in my AI 
 
 - **Stable-Baselines3**: Advanced implementation of **Reinforcement Learning** algorithms based on PyTorch, used to train AI agents in various simulated and real environments.
 
+- **Torch**: It is the main module of **PyTorch**, an open-source machine learning and deep learning library developed by **Facebook AI Research** (FAIR).
+
 ## Certifications
 
 I have completed the following course:
