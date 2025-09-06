@@ -229,8 +229,8 @@ AI is a vast field with many specializations. **Machine Learning** and **Deep Le
 - **Broadcasting**: A rule that allows operations between arrays of different sizes by automatically adjusting dimensions. 
 - **Centroid**: The central point of a cluster.  
 - **Categorical Cross-Entropy**: A loss function used for multi-class classification.  
-- **CartPole**: Classic RL environment where you try to balance a pole on a moving cart.
-- **Cost Function**: It would calculate how wrong the model's answer is.
+- **CartPole**: Classic RL environment where you try to balance a pole on a mo ving cart.
+- **Cost Function**: It would calculate how wrong the model's answer is. In linear regression, the cost function (often MSE) measures the error between predictions and actual values.
 - **Checkerboard Artifacts**: Distortions due to uneven overlapping of convolutional filters.
 - **Churn Prediction**: The process of predicting whether a customer will abandon a service or subscription.  
 - **Classes**: The possible outcomes or output categories predicted by the model.  
@@ -238,11 +238,13 @@ AI is a vast field with many specializations. **Machine Learning** and **Deep Le
 - **Classification**: Predicting which category a piece of data belongs to by assigning it a discrete label.  
 - **Classification with KNN**: A method that assigns the class based on the majority vote of the K nearest neighbors.  
 - **Clustering**: An unsupervised learning technique for grouping similar data.  
+- **Contour Plot**: A contour plot provides a bird's-eye view of a 3D cost function surface. X-axis: Represents a parameter, like the weight (w) or slope. Y-axis: Represents another parameter, like the bias (b). Z-axis: Represents the value of the cost function (e.g., MSE). The lines on a contour plot are level curves, which are formed by "slicing" the 3D surface at different heights (cost values). These lines show all the combinations of w and b that result in the same cost value.
 - **CNN (Convolutional Neural Network)**: A neural network excellent for processing images and static objects, though it does not consider temporal context. 
 - **Convolution operation in CNN**: A mathematical process that allows the network to extract relevant features from an image.
 - **Convolutional Base**: Part of a CNN model that extracts features from images without including fully connected layers. 
 - **Conv2D (Convolutional Layer)**: A convolutional layer that applies filters to the input to extract important features.
 - **Cosine Similarity**: how similar two vectors are
+- **Cost surface**: in linear regression (with slope $w$ and bias $b$) is a 3D shape
 - **Cropping2D (Output Cropping)**: Trims parts of the output to correct mismatches in dimensions.
 - **K-means algorithm**: A popular clustering technique that partitions a dataset into distinct groups based on the features of the data points.
 - **Data Augmentation**: is a pre-processing technique used in deep learning to artificially increase the amount of data available for training a model. This is done by applying random transformations to existing images, creating new versions with different variations.
@@ -335,7 +337,7 @@ Transforms the input sequence into a dense numerical representation, capturing m
 - **Max-Pooling**: A technique that selects the maximum value within a region of the image.
 - **Matrix**: A table of numbers with rows and columns, used for linear transformations.
 - **Markov Property**: It implies that the action taken by our agent is conditional solely on the present state and independent of the past states and actions.
-- **Mean Squared Error (MSE)**: A loss function that measures error in regression models.  
+- **Mean Squared Error (MSE)**: A loss function that measures error in regression models. Measure the mean squared difference between the predicted values and the actual values. 
 - **Meta learning** is the art of teaching AI to learn on its own, like a child learning to learn. Meta-learning in machine learning refers to learning algorithms that learn from other learning algorithms.
 Most commonly, this means the use of machine learning algorithms that learn how to best combine the predictions from other machine learning algorithms in the field of ensemble learning.
 - **Minkowski Distance**: A distance metric that generalizes Euclidean and Manhattan distances. Used in **Clustering, KNN, Geometry**.  
