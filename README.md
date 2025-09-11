@@ -243,6 +243,7 @@ AI is a vast field with many specializations. **Machine Learning** and **Deep Le
 - **Convolution operation in CNN**: A mathematical process that allows the network to extract relevant features from an image.
 - **Convolutional Base**: Part of a CNN model that extracts features from images without including fully connected layers. 
 - **Conv2D (Convolutional Layer)**: A convolutional layer that applies filters to the input to extract important features.
+- **Convergence Rate**: The convergence rate describes **how quickly the loss decreases** as we move through epochs.
 - **Cosine Similarity**: how similar two vectors are
 - **Cost surface**: in linear regression (with slope $w$ and bias $b$) is a 3D shape
 - **Cropping2D (Output Cropping)**: Trims parts of the output to correct mismatches in dimensions.
@@ -424,7 +425,8 @@ Most commonly, this means the use of machine learning algorithms that learn how 
 - **Tensors**: Fundamental data structure in artificial intelligence, providing a means of storing both input and output data within a model,  A multi-dimensional array, a generalization of vectors and matrices.
 - **Theta Coefficient**: Values that indicate **how much each feature affects the prediction**.  
 - **Threshold (Decision Threshold)**: The value (e.g., **0.5**) beyond which an observation is assigned to a class.  
-- **Training Set**: The dataset used to train the model.  
+- **Training Set**: The dataset used to train the model. 
+- **Training size**: Total number of examples in the dataset.
 - **Transfer Learning**: It is a technique that allows you to reuse pre-trained models on large datasets for new and related tasks.
 - **Transpose convolution**: An operation that reverses the effects of convolution, often used for up-sampling in image processing.
 - **Transpose**: Swaps rows and columns of a matrix.
