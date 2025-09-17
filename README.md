@@ -364,6 +364,8 @@ Most commonly, this means the use of machine learning algorithms that learn how 
 - **One-vs-All (One-vs-Rest)**: A multi-class classification strategy where a binary classifier is built for each class, distinguishing it from all other classes.  
 - **One-vs-One**: A classification strategy in which a binary classifier is trained for each pair of classes, and the final decision is made based on the majority vote.  
 - **One-shot learning**: is an object categorization problem, found mostly in computer vision. Whereas most machine learning-based object categorization algorithms require training on hundreds or thousands of examples, one-shot learning aims to classify objects from one, or only a few, examples. 
+- **ONNX**: stands for **Open Neural Network Exchange**.
+It is an **open standard format** created by Microsoft and Facebook (now supported by many companies) for saving and exchanging machine learning and deep learning models independently of the framework they were trained in.
 - **Open System**: is a structure that constantly exchanges matter, energy, or information with its external environment. Unlike isolated systems, these systems have permeable and dynamic boundaries.
 - **Outlier Detection**: The process of identifying anomalous data points in a dataset.  
 - **Output Layer**: The final layer of a neural network that produces the result.  
@@ -402,6 +404,7 @@ Most commonly, this means the use of machine learning algorithms that learn how 
 - **Self-Attention Mechanism**: Allows the **model to weight words** in the **context of a sentence**. Each word compares itself to all other words in the sentence, calculating how important it is compared to the others (attention weights).
 - **Sequential data**: are text, time series, audio.
 - **Semantic segmentation**: A deep learning task that involves classifying each pixel in an image into a predefined class. 
+- **Sentence Similarity**: A technique that measures how semantically similar two sentences are. It is used to connect the player's input to the robot's possible actions.
 - **Sequential Data**: Data organized in a specific order where context from previous elements is crucial.  
 - **Sequential Model-API**: A type of model in Keras where layers are stacked sequentially.  
 - **Shallow Neural Network**: A neural network with only one or two hidden layers that primarily processes input as vectors.  
