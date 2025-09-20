@@ -300,6 +300,7 @@ Transforms the input sequence into a dense numerical representation, capturing m
 - **Ground Truth**: The actual or correct value that the model is intended to predict.  
 - **Hard Margin**: A requirement for perfect separation between classes with a rigid margin.  .
 - **Hebb's theory**: simply put, says that neurons that fire together strengthen their connections, "neurons that fire together, wire together."
+- **Head**: a distinct output of the model.
 - **Hidden Layer**: An intermediate layer in the neural network that processes information.  
 - **Hidden Layers**: Multiple intermediate layers that process data between the input and output layers.  
 - **Hierarchical Clustering**: A clustering technique that creates a hierarchical structure of groups. 
