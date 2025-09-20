@@ -537,24 +537,31 @@ It is an **open standard format** created by Microsoft and Facebook (now support
 | **Vector Projection (x → d dᵀ x)** | Reducing reality to a single dimension | 
 | **Frobenius Norm** | Measure of total energy of a transformation | 
 
+Ecco una versione riscritta e sistemata, mantenendo il formato tabella in Markdown, più chiara e corretta:
+
+---
+
 # Probability & Information Theory – Summary Table
 
-| **Section**              | **Key Concept**                                                                 | **Formula / Important Notes**                                                                 |
-|--------------------------|---------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
-| Why probability in AI    | Managing uncertainty, guiding algorithms and analysis                           | Two main uses: design and analysis                                                          |
-| Types of probability      | Frequentist vs Bayesian                                                        | Frequentist = repeated events<br>Bayesian = degree of confidence                            |
-| Random variables          | Variables that take values ​​according to a distribution                       | Discrete (PMF) / Continuous (PDF)                                                          |
-| PMF – Discrete            | Exact probability of each state                                                | $$ \sum_x P(x) = 1 $$                                                                       |
-| PDF – Continuous          | Probability density (not point value)                                          | $$ \int p(x) dx = 1 $$, $$ P(x = c) = 0 $$                                                  |
-| Marginalization           | Isolate one variable, ignoring the others                                      | Discrete: $$ P(x) = \sum_y P(x, y) $$ <br> Continuous: $$ p(x) = \int p(x, y) dy $$         |
-| Conditionalization        | Probability of `y` given that `x` has happened                                 | $$ P(y | x) = \frac{P(x, y)}{P(x)} $$                                                      |
-| Independence              | No mutual influence between `x` and `y`                                        | $$ P(x, y) = P(x)P(y) $$                                                                    |
-| Conditional independence  | `x` and `y` independent given `z`                                              | $$ P(x, y | z) = P(x | z)P(y | z) $$                                                       |
-| Expectation               | Weighted mean of a function on one variable                                    | Discrete: $$ \mathbb{E}[f(x)] = \sum_x P(x)f(x) $$ <br> Continuous: $$ \int p(x)f(x) dx $$  |
-| Variance                  | Dispersion about the mean                                                      | $$ \text{Var}(f(x)) = \mathbb{E}[(f(x) - \mathbb{E}[f(x)])^2] $$                           |
-| Covariance                | How two variables vary together                                                | $$ \text{Cov}(x, y) = \mathbb{E}[(x - \mathbb{E}[x])(y - \mathbb{E}[y])] $$                |
-| Covariance ≠ independence | Cov = 0 does not imply independence                                            | There can be non-linear dependence                                                         |
-| Covariance matrix         | Relations and variance for vectors of variables                                | $$ \text{Cov}(x)_{i,j} = \text{Cov}(x_i, x_j) $$                                           |
-| Probabilistic models      | Factorization of the distribution into simpler factors                         | Reduces parameters, useful for AI                                                          |
-| Direct (Bayesian) models  | Graphs with directed edges, explicit conditioning                              | $$ P(x) = \prod_i P(x_i \mid \text{parents}(x_i)) $$                                        |
-| Indirect (Markov) models  | Undirected graphs, positive but unnormalized factors (φ)                       | $$ P(x) = \frac{1}{Z} \prod_i \phi(C_i) $$, with $$ Z $$ normalization constant             |
+| **Section**                | **Key Concept**                                                            | **Formula / Important Notes**                                                                  |
+| -------------------------- | -------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| Why probability in AI      | Used to manage uncertainty, design algorithms, and analyze models          | Two main purposes: **design** and **analysis**                                                 |
+| Types of probability       | Different interpretations of probability                                   | **Frequentist** = long-run frequency of events <br> **Bayesian** = degree of belief/confidence |
+| Random variables           | Variables that take values according to a probability distribution         | **Discrete** (PMF) / **Continuous** (PDF)                                                      |
+| PMF – Discrete             | Gives exact probability of each possible value                             | $\sum_x P(x) = 1$                                                                              |
+| PDF – Continuous           | Probability density (not direct probability at a point)                    | $\int p(x) dx = 1$, and $P(x = c) = 0$                                                         |
+| Marginalization            | Obtain the distribution of one variable by summing/integrating over others | Discrete: $P(x) = \sum_y P(x, y)$ <br> Continuous: $p(x) = \int p(x, y)\,dy$                   |
+| Conditional probability    | Probability of `y` given `x`                                               | $P(y \mid x) = \frac{P(x, y)}{P(x)}$                                                           |
+| Independence               | Two variables do not influence each other                                  | $P(x, y) = P(x)P(y)$                                                                           |
+| Conditional independence   | `x` and `y` are independent given `z`                                      | $P(x, y \mid z) = P(x \mid z)P(y \mid z)$                                                      |
+| Expectation                | Weighted average of a function of a variable                               | Discrete: $\mathbb{E}[f(x)] = \sum_x P(x) f(x)$ <br> Continuous: $\int p(x) f(x)\,dx$          |
+| Variance                   | Measure of spread around the mean                                          | $\text{Var}(x) = \mathbb{E}[(x - \mathbb{E}[x])^2]$                                            |
+| Covariance                 | How two variables vary together                                            | $\text{Cov}(x,y) = \mathbb{E}[(x - \mathbb{E}[x])(y - \mathbb{E}[y])]$                         |
+| Covariance ≠ independence  | Zero covariance does not imply independence                                | There may still be **non-linear dependence**                                                   |
+| Covariance matrix          | Generalization of covariance to multiple variables                         | $\text{Cov}(x)_{i,j} = \text{Cov}(x_i, x_j)$                                                   |
+| Probabilistic models       | Factorization of complex distributions into simpler components             | Reduces parameters, makes modeling tractable                                                   |
+| Directed (Bayesian) models | Directed graphs encode conditional dependencies                            | $P(x) = \prod_i P(x_i \mid \text{parents}(x_i))$                                               |
+| Undirected (Markov) models | Undirected graphs encode factors (potential functions, φ), normalized by Z | $P(x) = \frac{1}{Z} \prod_i \phi(C_i)$, with $Z$ = normalization constant                      |
+
+---
+
