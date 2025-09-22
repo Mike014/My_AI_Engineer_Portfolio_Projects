@@ -1,0 +1,1 @@
+### This block of my AI ENGINEERING PORTFOLIO, studies AI Agents from the [Ready Tensor Inc. documentation and course](https://app.readytensor.ai/hubs/ready_tensor_certifications).
