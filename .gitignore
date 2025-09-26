@@ -2,4 +2,19 @@ __pycache__/
 *.wav
 *.npy
 *.h5
+*.ckpt
+*.bin
+*.env
+*.log
+*.json
+*.csv
+*.sqlite3
+*.db
+*.ipynb_checkpoints
+.vscode/
+.DS_Store
+__pycache__/
+*.pyc
+*.pyo
+*.pyd       
 
