@@ -294,6 +294,7 @@ Transforms the input sequence into a dense numerical representation, capturing m
 - **Fully Connected Layer**: Also known as the **Dense Layer**; the final layer for classification using **Softmax**. The **final layers** of a CNN that perform classification.
 - **Functional API**: An alternative to the Sequential API that allows for creating more **complex and flexible** models, with multiple inputs/outputs and non-linear connections.
 - **Gamma**: A parameter of **RBF and polynomial kernels** that controls how much a single data point influences the decision boundary.  
+- **Guardrail**: In a Generative Artificial Intelligence (GenAI) system, such as a Large Language Model (LLM), there is a safety mechanism or policy designed to control and constrain the behavior of the model.
 - **Gym (OpenAI) Toolkit**: for simulating standardized RL environments like CartPole, Pong, etc.
 - **Gradient Descent**: An iterative algorithm used to minimize the cost function.  
 - **Gradients**: Values that indicate how much the network's weights should be updated. Too small values make learning slow.  
@@ -415,6 +416,7 @@ It is an **open standard format** created by Microsoft and Facebook (now support
 - **SoftMax Probability**: The probability assigned to each class in a **SoftMax model**, computed by transforming the dot products of data and model parameters.  
 - **SoftMax Regression**: A variant of logistic regression that assigns probabilities to multiple classes by transforming outputs into a probability distribution.  
 - **Softmax**: Converts the output of a layer into probabilities for class membership.  
+- **Steer**: Steer is the act or set of instructions a user or developer gives to a Large Language Model to direct its behavior, tone, content, or persona.
 - **Stride**: The step size with which the convolutional filter moves across the image.  
 - **Soma**: The main body of a neuron that contains its nucleus.  
 - **Standardization of Features**: The process of scaling features to make them comparable and reduce unbalanced impact on predictions.  
