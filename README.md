@@ -314,6 +314,7 @@ Most commonly, this means the use of machine learning algorithms that learn how 
 - **Multinomial Logistic Regression**: A statistical model that generalizes binary logistic regression for multi-class classification.  
 - **Multi-Class Classification**: A problem in which a data point must be assigned to one of **K** available classes.  
 - **Neural Network**: A computational model inspired by the human brain, composed of interconnected artificial neurons.  
+- **Neural TTS (Neural Text-to-Speech)**: is a system that synthesizes voice from text using neural networks (deep learning), instead of the old rule-based or recorded 'piece' methods.
 - **Neuron**: The basic unit of the brain and nervous system, responsible for transmitting information.  
 - **Neuron Output (a)**: The final value of a neuron after applying the activation function. 
 - **Noise**: In the scattering process, noise is a **random disturbance added to the data** 
