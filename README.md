@@ -168,6 +168,7 @@ AI is a **powerful, revolutionary, and continuously evolving** technology, shapi
 ### **Glossary of Terms Used in the Course** 
 
 - **Activation Function**: A mathematical function that introduces **non-linearity** into the model, allowing it to solve complex problems.  
+- **Accuracy**: Basic classification performance metric
 - **Adam Optimizer**: An advanced optimization algorithm that improves gradient descent.  
 - **Algorithm**: A set of step-by-step instructions for solving a problem or making a prediction in machine learning.  
 - **Algorithm design**: The **laws of probability guide how AI systems should reason**. Algorithms are therefore built to compute (or approximate) probabilistic expressions.
@@ -185,12 +186,14 @@ AI is a **powerful, revolutionary, and continuously evolving** technology, shapi
 - **Bias**: Systematic error of the model, indicating how far the predictions are from the actual values. High bias causes **underfitting**.  
 - **Bias (b)**: A constant added to the equation to improve the model’s learning ability.  
 - **Binary Classifier**: A model that distinguishes between only two classes (e.g., positive/negative). It serves as the basis for multi-class strategies like **One-vs-All** and **One-vs-One**.  
+- **Binary Cross-Entropy (BCE)**: Loss for binary classification
 - **Boosting**: An ensemble learning technique that reduces **bias** by sequentially training models, each correcting the errors of the previous one. Used in **XGBoost, AdaBoost, Gradient Boosting**.
 - **Broadcasting**: A rule that allows operations between arrays of different sizes by automatically adjusting dimensions. 
 - **Centroid**: The central point of a cluster.  
 - **Categorical Cross-Entropy**: A loss function used for multi-class classification.  
 - **CartPole**: Classic RL environment where you try to balance a pole on a mo ving cart.
 - **Cost Function**: It would calculate how wrong the model's answer is. In linear regression, the cost function (often MSE) measures the error between predictions and actual values.
+- **Cost surface**: The landscape of the loss function across parameter space
 - **Checkerboard Artifacts**: Distortions due to uneven overlapping of convolutional filters.
 - **Churn Prediction**: The process of predicting whether a customer will abandon a service or subscription.  
 - **Classes**: The possible outcomes or output categories predicted by the model.  
@@ -207,6 +210,7 @@ AI is a **powerful, revolutionary, and continuously evolving** technology, shapi
 - **Cosine Similarity**: how similar two vectors are
 - **Cost surface**: in linear regression (with slope $w$ and bias $b$) is a 3D shape
 - **Cropping2D (Output Cropping)**: Trims parts of the output to correct mismatches in dimensions.
+- **Cross-Entropy**: Generalization to multi-class problems
 - **K-means algorithm**: A popular clustering technique that partitions a dataset into distinct groups based on the features of the data points.
 - **Data Augmentation**: is a pre-processing technique used in deep learning to artificially increase the amount of data available for training a model. This is done by applying random transformations to existing images, creating new versions with different variations.
 - **Data Denoising**: Automatic noise removal from data via autoencoders.  
@@ -248,7 +252,8 @@ Transforms the input sequence into a dense numerical representation, capturing m
 - **Feed-Forward Neural Network (FFNN)**: A neural network transforms the processed vector. **Feedforward Network**,  connections between nodes **do not form cycles**, **information** only moves in one direction, **forward**.
 - **Fine-Tuning**: A technique in which some layers of a pre-trained model are "unlocked" and retrained on a new specific dataset.
 - **Fisher Information**: Fisher Information tells you how "sensitive" the probability of your data is to small changes in these parameters.
-- **Flattening**: Transforming the convolutional output into a vector for the dense layer.  
+- **Flattening**: Transforming the convolutional output into a vector for the dense layer. 
+- **Flat regions**: Areas where gradient is zero, stopping optimization
 - **Forward Propagation**: The process by which data passes through the **neural network**, from input to output.  
 
 - **Fully Connected Layer**: Also known as the **Dense Layer**; the final layer for classification using **Softmax**. The **final layers** of a CNN that perform classification.
@@ -290,7 +295,8 @@ Transforms the input sequence into a dense numerical representation, capturing m
 - **Linear Kernel**: Uses a simple hyperplane to separate classes.  
 - **Linear Regression**: A regression algorithm that predicts a continuous value based on a linear relationship between variables.  
 - **LLM**: A language model **estimates the probability that a sequence of words will appear**.
-- **Log-Loss (Loss Function)**: A loss function used to measure the error in logistic regression.  
+- **Log-Loss (Loss Function)**: A loss function used to measure the error in logistic regression.
+- **Log-likelihood**: Logarithm of likelihood for numerical stability 
 - **Logistic Regression**: A classification algorithm that predicts the probability that an observation belongs to a class.  
 - **Logit**: The logarithm of the odds ratio, used to model log-linear relationships.  
 - **Logit Function**: Transforms any value into a probability between 0 and 1.  
@@ -298,6 +304,7 @@ Transforms the input sequence into a dense numerical representation, capturing m
 - **Majority Voting**: A method used in **One-vs-One** classification where the final class is determined by the most votes among binary classifiers.  
 - **Margin**: The distance between the hyperplane and the nearest data points (**support vectors**).  
 - **Max-Pooling**: A technique that selects the maximum value within a region of the image.
+- **Maximum Likelihood Estimation (MLE)**: Method for parameter estimation by maximizing data probability
 - **Matrix**: A table of numbers with rows and columns, used for linear transformations.
 - **Markov Property**: It implies that the action taken by our agent is conditional solely on the present state and independent of the past states and actions.
 - **Mean Squared Error (MSE)**: A loss function that measures error in regression models. Measure the mean squared difference between the predicted values and the actual values. 
@@ -392,6 +399,7 @@ It is an **open standard format** created by Microsoft and Facebook (now support
 - **Tensors**: Fundamental data structure in artificial intelligence, providing a means of storing both input and output data within a model,  A multi-dimensional array, a generalization of vectors and matrices.
 - **Theta Coefficient**: Values that indicate **how much each feature affects the prediction**.  
 - **Threshold (Decision Threshold)**: The value (e.g., **0.5**) beyond which an observation is assigned to a class.  
+- **Threshold function**: Step function producing 0/1 outputs
 - **Training Set**: The dataset used to train the model. 
 - **Training size**: Total number of examples in the dataset.
 - **Transfer Learning**: It is a technique that allows you to reuse pre-trained models on large datasets for new and related tasks.
