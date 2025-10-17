@@ -313,6 +313,7 @@ Most commonly, this means the use of machine learning algorithms that learn how 
 - **Minkowski Distance**: A distance metric that generalizes Euclidean and Manhattan distances. Used in **Clustering, KNN, Geometry**.  
 - **Minimum Global (Global Minimum)**: The lowest point of the cost function, representing the smallest possible error.  
 - **Minimum Local (Local Minimum)**: A low point in the cost function, which is not necessarily the absolute minimum, where the model may become stuck.  
+- **MLP (Multilayer Perceptron)**: An MLP is a chain of transformations. Each layer takes the output from the previous layer, "mixes" it with weights, and "warps" it with a non-linear function, creating increasingly complex and abstract representations of the data.
 - **MNIST**: is a dataset of images of handwritten digits, commonly used to train and test machine learning models.
 - **Mixture of Experts (MoE)**: is an **architecture** that combines **multiple** specialized **models**, called **“experts,”** to **address complex tasks more efficiently and effectively**.
 - **Mixed precision training**: An **optimization tool** that leverages both **16-bit and 32-bit floating-point types** to accelerate model training and reduce memory usage.
